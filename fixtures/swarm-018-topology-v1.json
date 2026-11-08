@@ -1,0 +1,2332 @@
+{
+  "protocol": "SWARM-018-topology-v1",
+  "status": "static specification fixtures; no production method or research run executed",
+  "aliases_are_test_only": true,
+  "case_defaults": "Static fixture approvals default true except named required false node and explicit distractor approval overrides; this is a hand-chosen fixture, not the production Bernoulli draw; observed approvals unchanged. Default observed parents equal private parents. declared_arity equals original true degree except rewritten_arity_can_hide_branch, which changes arity to match its shorter list. Each selected alias corresponds to one paid distinct payload; arbitrary selected subsets test the checker, not method performance.",
+  "graphs": {
+    "chain4": {
+      "k": 4,
+      "anchor": "J",
+      "private_parents": {
+        "R": [],
+        "A": [
+          "R"
+        ],
+        "B": [
+          "A"
+        ],
+        "J": [
+          "B"
+        ],
+        "D00": [],
+        "D01": [
+          "D00"
+        ],
+        "D02": [
+          "D00"
+        ],
+        "D03": [
+          "D01",
+          "D02"
+        ],
+        "D04": [],
+        "D05": [
+          "D04"
+        ],
+        "D06": [
+          "D04"
+        ],
+        "D07": [
+          "D05",
+          "D06"
+        ],
+        "D08": [],
+        "D09": [
+          "D08"
+        ],
+        "D10": [
+          "D08"
+        ],
+        "D11": [
+          "D09",
+          "D10"
+        ],
+        "D12": [],
+        "D13": [
+          "D12"
+        ],
+        "D14": [
+          "D12"
+        ],
+        "D15": [
+          "D13",
+          "D14"
+        ],
+        "D16": [],
+        "D17": [
+          "D16"
+        ],
+        "D18": [
+          "D16"
+        ],
+        "D19": [
+          "D17",
+          "D18"
+        ],
+        "D20": [],
+        "D21": [
+          "D20"
+        ],
+        "D22": [
+          "D20"
+        ],
+        "D23": [
+          "D21",
+          "D22"
+        ],
+        "D24": [],
+        "D25": [
+          "D24"
+        ],
+        "D26": [
+          "D24"
+        ],
+        "D27": [
+          "D25",
+          "D26"
+        ]
+      },
+      "required_set": [
+        "R",
+        "A",
+        "B",
+        "J"
+      ],
+      "distractor_count": 28,
+      "candidate_count": 32,
+      "fixture_id_order": [
+        "R",
+        "A",
+        "B",
+        "J",
+        "D00",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23",
+        "D24",
+        "D25",
+        "D26",
+        "D27"
+      ],
+      "fixture_opaque_ids": {
+        "R": "00000000000000000000000000000001",
+        "A": "00000000000000000000000000000002",
+        "B": "00000000000000000000000000000003",
+        "J": "00000000000000000000000000000004",
+        "D00": "00000000000000000000000000000005",
+        "D01": "00000000000000000000000000000006",
+        "D02": "00000000000000000000000000000007",
+        "D03": "00000000000000000000000000000008",
+        "D04": "00000000000000000000000000000009",
+        "D05": "0000000000000000000000000000000a",
+        "D06": "0000000000000000000000000000000b",
+        "D07": "0000000000000000000000000000000c",
+        "D08": "0000000000000000000000000000000d",
+        "D09": "0000000000000000000000000000000e",
+        "D10": "0000000000000000000000000000000f",
+        "D11": "00000000000000000000000000000010",
+        "D12": "00000000000000000000000000000011",
+        "D13": "00000000000000000000000000000012",
+        "D14": "00000000000000000000000000000013",
+        "D15": "00000000000000000000000000000014",
+        "D16": "00000000000000000000000000000015",
+        "D17": "00000000000000000000000000000016",
+        "D18": "00000000000000000000000000000017",
+        "D19": "00000000000000000000000000000018",
+        "D20": "00000000000000000000000000000019",
+        "D21": "0000000000000000000000000000001a",
+        "D22": "0000000000000000000000000000001b",
+        "D23": "0000000000000000000000000000001c",
+        "D24": "0000000000000000000000000000001d",
+        "D25": "0000000000000000000000000000001e",
+        "D26": "0000000000000000000000000000001f",
+        "D27": "00000000000000000000000000000020"
+      },
+      "fixture_default_distractor_approval": true,
+      "background_component_count": 7,
+      "background_root_aliases": [
+        "D00",
+        "D04",
+        "D08",
+        "D12",
+        "D16",
+        "D20",
+        "D24"
+      ]
+    },
+    "fork4": {
+      "k": 4,
+      "anchor": "J",
+      "private_parents": {
+        "R": [],
+        "A": [
+          "R"
+        ],
+        "B": [
+          "R"
+        ],
+        "J": [
+          "A",
+          "B"
+        ],
+        "D00": [],
+        "D01": [
+          "D00"
+        ],
+        "D02": [
+          "D00"
+        ],
+        "D03": [
+          "D01",
+          "D02"
+        ],
+        "D04": [],
+        "D05": [
+          "D04"
+        ],
+        "D06": [
+          "D04"
+        ],
+        "D07": [
+          "D05",
+          "D06"
+        ],
+        "D08": [],
+        "D09": [
+          "D08"
+        ],
+        "D10": [
+          "D08"
+        ],
+        "D11": [
+          "D09",
+          "D10"
+        ],
+        "D12": [],
+        "D13": [
+          "D12"
+        ],
+        "D14": [
+          "D12"
+        ],
+        "D15": [
+          "D13",
+          "D14"
+        ],
+        "D16": [],
+        "D17": [
+          "D16"
+        ],
+        "D18": [
+          "D16"
+        ],
+        "D19": [
+          "D17",
+          "D18"
+        ],
+        "D20": [],
+        "D21": [
+          "D20"
+        ],
+        "D22": [
+          "D20"
+        ],
+        "D23": [
+          "D21",
+          "D22"
+        ],
+        "D24": [],
+        "D25": [
+          "D24"
+        ],
+        "D26": [
+          "D24"
+        ],
+        "D27": [
+          "D25",
+          "D26"
+        ]
+      },
+      "required_set": [
+        "R",
+        "A",
+        "B",
+        "J"
+      ],
+      "distractor_count": 28,
+      "candidate_count": 32,
+      "fixture_id_order": [
+        "R",
+        "A",
+        "B",
+        "J",
+        "D00",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23",
+        "D24",
+        "D25",
+        "D26",
+        "D27"
+      ],
+      "fixture_opaque_ids": {
+        "R": "00000000000000000000000000000001",
+        "A": "00000000000000000000000000000002",
+        "B": "00000000000000000000000000000003",
+        "J": "00000000000000000000000000000004",
+        "D00": "00000000000000000000000000000005",
+        "D01": "00000000000000000000000000000006",
+        "D02": "00000000000000000000000000000007",
+        "D03": "00000000000000000000000000000008",
+        "D04": "00000000000000000000000000000009",
+        "D05": "0000000000000000000000000000000a",
+        "D06": "0000000000000000000000000000000b",
+        "D07": "0000000000000000000000000000000c",
+        "D08": "0000000000000000000000000000000d",
+        "D09": "0000000000000000000000000000000e",
+        "D10": "0000000000000000000000000000000f",
+        "D11": "00000000000000000000000000000010",
+        "D12": "00000000000000000000000000000011",
+        "D13": "00000000000000000000000000000012",
+        "D14": "00000000000000000000000000000013",
+        "D15": "00000000000000000000000000000014",
+        "D16": "00000000000000000000000000000015",
+        "D17": "00000000000000000000000000000016",
+        "D18": "00000000000000000000000000000017",
+        "D19": "00000000000000000000000000000018",
+        "D20": "00000000000000000000000000000019",
+        "D21": "0000000000000000000000000000001a",
+        "D22": "0000000000000000000000000000001b",
+        "D23": "0000000000000000000000000000001c",
+        "D24": "0000000000000000000000000000001d",
+        "D25": "0000000000000000000000000000001e",
+        "D26": "0000000000000000000000000000001f",
+        "D27": "00000000000000000000000000000020"
+      },
+      "fixture_default_distractor_approval": true,
+      "background_component_count": 7,
+      "background_root_aliases": [
+        "D00",
+        "D04",
+        "D08",
+        "D12",
+        "D16",
+        "D20",
+        "D24"
+      ]
+    },
+    "chain8": {
+      "k": 8,
+      "anchor": "J",
+      "private_parents": {
+        "R": [],
+        "A1": [
+          "R"
+        ],
+        "A2": [
+          "A1"
+        ],
+        "A3": [
+          "A2"
+        ],
+        "B1": [
+          "A3"
+        ],
+        "B2": [
+          "B1"
+        ],
+        "B3": [
+          "B2"
+        ],
+        "J": [
+          "B3"
+        ],
+        "D00": [],
+        "D01": [
+          "D00"
+        ],
+        "D02": [
+          "D00"
+        ],
+        "D03": [
+          "D01",
+          "D02"
+        ],
+        "D04": [],
+        "D05": [
+          "D04"
+        ],
+        "D06": [
+          "D04"
+        ],
+        "D07": [
+          "D05",
+          "D06"
+        ],
+        "D08": [],
+        "D09": [
+          "D08"
+        ],
+        "D10": [
+          "D08"
+        ],
+        "D11": [
+          "D09",
+          "D10"
+        ],
+        "D12": [],
+        "D13": [
+          "D12"
+        ],
+        "D14": [
+          "D12"
+        ],
+        "D15": [
+          "D13",
+          "D14"
+        ],
+        "D16": [],
+        "D17": [
+          "D16"
+        ],
+        "D18": [
+          "D16"
+        ],
+        "D19": [
+          "D17",
+          "D18"
+        ],
+        "D20": [],
+        "D21": [
+          "D20"
+        ],
+        "D22": [
+          "D20"
+        ],
+        "D23": [
+          "D21",
+          "D22"
+        ]
+      },
+      "required_set": [
+        "R",
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "B3",
+        "J"
+      ],
+      "distractor_count": 24,
+      "candidate_count": 32,
+      "fixture_id_order": [
+        "R",
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "B3",
+        "J",
+        "D00",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23"
+      ],
+      "fixture_opaque_ids": {
+        "R": "00000000000000000000000000000001",
+        "A1": "00000000000000000000000000000002",
+        "A2": "00000000000000000000000000000003",
+        "A3": "00000000000000000000000000000004",
+        "B1": "00000000000000000000000000000005",
+        "B2": "00000000000000000000000000000006",
+        "B3": "00000000000000000000000000000007",
+        "J": "00000000000000000000000000000008",
+        "D00": "00000000000000000000000000000009",
+        "D01": "0000000000000000000000000000000a",
+        "D02": "0000000000000000000000000000000b",
+        "D03": "0000000000000000000000000000000c",
+        "D04": "0000000000000000000000000000000d",
+        "D05": "0000000000000000000000000000000e",
+        "D06": "0000000000000000000000000000000f",
+        "D07": "00000000000000000000000000000010",
+        "D08": "00000000000000000000000000000011",
+        "D09": "00000000000000000000000000000012",
+        "D10": "00000000000000000000000000000013",
+        "D11": "00000000000000000000000000000014",
+        "D12": "00000000000000000000000000000015",
+        "D13": "00000000000000000000000000000016",
+        "D14": "00000000000000000000000000000017",
+        "D15": "00000000000000000000000000000018",
+        "D16": "00000000000000000000000000000019",
+        "D17": "0000000000000000000000000000001a",
+        "D18": "0000000000000000000000000000001b",
+        "D19": "0000000000000000000000000000001c",
+        "D20": "0000000000000000000000000000001d",
+        "D21": "0000000000000000000000000000001e",
+        "D22": "0000000000000000000000000000001f",
+        "D23": "00000000000000000000000000000020"
+      },
+      "fixture_default_distractor_approval": true,
+      "background_component_count": 6,
+      "background_root_aliases": [
+        "D00",
+        "D04",
+        "D08",
+        "D12",
+        "D16",
+        "D20"
+      ]
+    },
+    "fork8": {
+      "k": 8,
+      "anchor": "J",
+      "private_parents": {
+        "R": [],
+        "A1": [
+          "R"
+        ],
+        "A2": [
+          "A1"
+        ],
+        "A3": [
+          "A2"
+        ],
+        "B1": [
+          "R"
+        ],
+        "B2": [
+          "B1"
+        ],
+        "B3": [
+          "B2"
+        ],
+        "J": [
+          "A3",
+          "B3"
+        ],
+        "D00": [],
+        "D01": [
+          "D00"
+        ],
+        "D02": [
+          "D00"
+        ],
+        "D03": [
+          "D01",
+          "D02"
+        ],
+        "D04": [],
+        "D05": [
+          "D04"
+        ],
+        "D06": [
+          "D04"
+        ],
+        "D07": [
+          "D05",
+          "D06"
+        ],
+        "D08": [],
+        "D09": [
+          "D08"
+        ],
+        "D10": [
+          "D08"
+        ],
+        "D11": [
+          "D09",
+          "D10"
+        ],
+        "D12": [],
+        "D13": [
+          "D12"
+        ],
+        "D14": [
+          "D12"
+        ],
+        "D15": [
+          "D13",
+          "D14"
+        ],
+        "D16": [],
+        "D17": [
+          "D16"
+        ],
+        "D18": [
+          "D16"
+        ],
+        "D19": [
+          "D17",
+          "D18"
+        ],
+        "D20": [],
+        "D21": [
+          "D20"
+        ],
+        "D22": [
+          "D20"
+        ],
+        "D23": [
+          "D21",
+          "D22"
+        ]
+      },
+      "required_set": [
+        "R",
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "B3",
+        "J"
+      ],
+      "distractor_count": 24,
+      "candidate_count": 32,
+      "fixture_id_order": [
+        "R",
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "B3",
+        "J",
+        "D00",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23"
+      ],
+      "fixture_opaque_ids": {
+        "R": "00000000000000000000000000000001",
+        "A1": "00000000000000000000000000000002",
+        "A2": "00000000000000000000000000000003",
+        "A3": "00000000000000000000000000000004",
+        "B1": "00000000000000000000000000000005",
+        "B2": "00000000000000000000000000000006",
+        "B3": "00000000000000000000000000000007",
+        "J": "00000000000000000000000000000008",
+        "D00": "00000000000000000000000000000009",
+        "D01": "0000000000000000000000000000000a",
+        "D02": "0000000000000000000000000000000b",
+        "D03": "0000000000000000000000000000000c",
+        "D04": "0000000000000000000000000000000d",
+        "D05": "0000000000000000000000000000000e",
+        "D06": "0000000000000000000000000000000f",
+        "D07": "00000000000000000000000000000010",
+        "D08": "00000000000000000000000000000011",
+        "D09": "00000000000000000000000000000012",
+        "D10": "00000000000000000000000000000013",
+        "D11": "00000000000000000000000000000014",
+        "D12": "00000000000000000000000000000015",
+        "D13": "00000000000000000000000000000016",
+        "D14": "00000000000000000000000000000017",
+        "D15": "00000000000000000000000000000018",
+        "D16": "00000000000000000000000000000019",
+        "D17": "0000000000000000000000000000001a",
+        "D18": "0000000000000000000000000000001b",
+        "D19": "0000000000000000000000000000001c",
+        "D20": "0000000000000000000000000000001d",
+        "D21": "0000000000000000000000000000001e",
+        "D22": "0000000000000000000000000000001f",
+        "D23": "00000000000000000000000000000020"
+      },
+      "fixture_default_distractor_approval": true,
+      "background_component_count": 6,
+      "background_root_aliases": [
+        "D00",
+        "D04",
+        "D08",
+        "D12",
+        "D16",
+        "D20"
+      ]
+    }
+  },
+  "counterexamples": [
+    {
+      "id": "empty_chain4",
+      "graph": "chain4",
+      "private_false_node": null,
+      "observed_parent_overrides": {},
+      "selected_aliases": [],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 0,
+        "true_hits": 0,
+        "reads": 0,
+        "checker": "unknown",
+        "resolved_observed_set": null,
+        "private_label": "normal",
+        "checker_agreement": 0,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "No anchor evidence.",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "partial_fork_missing_B",
+      "graph": "fork4",
+      "private_false_node": null,
+      "observed_parent_overrides": {},
+      "selected_aliases": [
+        "J",
+        "A",
+        "R"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 0,
+        "true_hits": 3,
+        "reads": 3,
+        "checker": "unknown",
+        "resolved_observed_set": null,
+        "private_label": "normal",
+        "checker_agreement": 0,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "One resolved branch cannot satisfy AND.",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "complete_fork_normal",
+      "graph": "fork4",
+      "private_false_node": null,
+      "observed_parent_overrides": {},
+      "selected_aliases": [
+        "J",
+        "A",
+        "B",
+        "R"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 1,
+        "true_hits": 4,
+        "reads": 4,
+        "checker": "asserted_normal",
+        "resolved_observed_set": [
+          "J",
+          "A",
+          "B",
+          "R"
+        ],
+        "private_label": "normal",
+        "checker_agreement": 1,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "missing_negative_branch",
+      "graph": "fork4",
+      "private_false_node": "B",
+      "observed_parent_overrides": {},
+      "selected_aliases": [
+        "J",
+        "A",
+        "R"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 0,
+        "true_hits": 3,
+        "reads": 3,
+        "checker": "unknown",
+        "resolved_observed_set": null,
+        "private_label": "violation",
+        "checker_agreement": 0,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "visible_false_but_other_branch_missing",
+      "graph": "fork4",
+      "private_false_node": "A",
+      "observed_parent_overrides": {},
+      "selected_aliases": [
+        "J",
+        "A",
+        "R"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 0,
+        "true_hits": 3,
+        "reads": 3,
+        "checker": "unknown",
+        "resolved_observed_set": null,
+        "private_label": "violation",
+        "checker_agreement": 0,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "Unknown precedes any Boolean short circuit.",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "chain_null_with_complete_true_set",
+      "graph": "chain4",
+      "private_false_node": "B",
+      "observed_parent_overrides": {
+        "J": [
+          null
+        ]
+      },
+      "selected_aliases": [
+        "J",
+        "B",
+        "A",
+        "R"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 1,
+        "true_hits": 4,
+        "reads": 4,
+        "checker": "unknown",
+        "resolved_observed_set": null,
+        "private_label": "violation",
+        "checker_agreement": 0,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "fork_null_with_complete_true_set",
+      "graph": "fork4",
+      "private_false_node": null,
+      "observed_parent_overrides": {
+        "J": [
+          "A",
+          null
+        ]
+      },
+      "selected_aliases": [
+        "J",
+        "A",
+        "B",
+        "R"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 1,
+        "true_hits": 4,
+        "reads": 4,
+        "checker": "unknown",
+        "resolved_observed_set": null,
+        "private_label": "normal",
+        "checker_agreement": 0,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "chain_false_leaf_wrong_normal",
+      "graph": "chain4",
+      "private_false_node": "B",
+      "observed_parent_overrides": {
+        "J": [
+          "D00"
+        ]
+      },
+      "selected_aliases": [
+        "J",
+        "D00"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 0,
+        "true_hits": 1,
+        "reads": 2,
+        "checker": "asserted_normal",
+        "resolved_observed_set": [
+          "J",
+          "D00"
+        ],
+        "private_label": "violation",
+        "checker_agreement": 0,
+        "false_normal": 1,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "chain_oracle_true_set_but_false_target_absent",
+      "graph": "chain4",
+      "private_false_node": "B",
+      "observed_parent_overrides": {
+        "J": [
+          "D00"
+        ]
+      },
+      "selected_aliases": [
+        "J",
+        "B",
+        "A",
+        "R"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 1,
+        "true_hits": 4,
+        "reads": 4,
+        "checker": "unknown",
+        "resolved_observed_set": null,
+        "private_label": "violation",
+        "checker_agreement": 0,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "chain_complete_true_set_still_wrong_normal",
+      "graph": "chain4",
+      "private_false_node": "B",
+      "observed_parent_overrides": {
+        "J": [
+          "D00"
+        ]
+      },
+      "selected_aliases": [
+        "J",
+        "B",
+        "A",
+        "R",
+        "D00"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 1,
+        "true_hits": 4,
+        "reads": 5,
+        "checker": "asserted_normal",
+        "resolved_observed_set": [
+          "J",
+          "D00"
+        ],
+        "private_label": "violation",
+        "checker_agreement": 0,
+        "false_normal": 1,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "fork_false_branch_wrong_normal",
+      "graph": "fork4",
+      "private_false_node": "B",
+      "observed_parent_overrides": {
+        "J": [
+          "A",
+          "D00"
+        ]
+      },
+      "selected_aliases": [
+        "J",
+        "A",
+        "R",
+        "D00"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 0,
+        "true_hits": 3,
+        "reads": 4,
+        "checker": "asserted_normal",
+        "resolved_observed_set": [
+          "J",
+          "A",
+          "R",
+          "D00"
+        ],
+        "private_label": "violation",
+        "checker_agreement": 0,
+        "false_normal": 1,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "fork_complete_true_set_still_wrong_normal",
+      "graph": "fork4",
+      "private_false_node": "B",
+      "observed_parent_overrides": {
+        "J": [
+          "A",
+          "D00"
+        ]
+      },
+      "selected_aliases": [
+        "J",
+        "A",
+        "B",
+        "R",
+        "D00"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 1,
+        "true_hits": 4,
+        "reads": 5,
+        "checker": "asserted_normal",
+        "resolved_observed_set": [
+          "J",
+          "A",
+          "R",
+          "D00"
+        ],
+        "private_label": "violation",
+        "checker_agreement": 0,
+        "false_normal": 1,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "agreement_without_complete_recovery",
+      "graph": "fork4",
+      "private_false_node": "A",
+      "observed_parent_overrides": {
+        "J": [
+          "A",
+          "D00"
+        ]
+      },
+      "selected_aliases": [
+        "J",
+        "A",
+        "R",
+        "D00"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 0,
+        "true_hits": 3,
+        "reads": 4,
+        "checker": "asserted_violation",
+        "resolved_observed_set": [
+          "J",
+          "A",
+          "R",
+          "D00"
+        ],
+        "private_label": "violation",
+        "checker_agreement": 1,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "normal_agreement_on_wrong_observed_set",
+      "graph": "fork4",
+      "private_false_node": null,
+      "observed_parent_overrides": {
+        "J": [
+          "A",
+          "D00"
+        ]
+      },
+      "selected_aliases": [
+        "J",
+        "A",
+        "R",
+        "D00"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 0,
+        "true_hits": 3,
+        "reads": 4,
+        "checker": "asserted_normal",
+        "resolved_observed_set": [
+          "J",
+          "A",
+          "R",
+          "D00"
+        ],
+        "private_label": "normal",
+        "checker_agreement": 1,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "complete_fork8",
+      "graph": "fork8",
+      "private_false_node": null,
+      "observed_parent_overrides": {},
+      "selected_aliases": [
+        "R",
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "B3",
+        "J"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 1,
+        "true_hits": 8,
+        "reads": 8,
+        "checker": "asserted_normal",
+        "resolved_observed_set": [
+          "R",
+          "A1",
+          "A2",
+          "A3",
+          "B1",
+          "B2",
+          "B3",
+          "J"
+        ],
+        "private_label": "normal",
+        "checker_agreement": 1,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "partial_fork8_missing_branch",
+      "graph": "fork8",
+      "private_false_node": "B2",
+      "observed_parent_overrides": {},
+      "selected_aliases": [
+        "J",
+        "A3",
+        "A2",
+        "A1",
+        "R"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 0,
+        "true_hits": 5,
+        "reads": 5,
+        "checker": "unknown",
+        "resolved_observed_set": null,
+        "private_label": "violation",
+        "checker_agreement": 0,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "chain8_budget4",
+      "graph": "chain8",
+      "private_false_node": null,
+      "observed_parent_overrides": {},
+      "selected_aliases": [
+        "J",
+        "B3",
+        "B2",
+        "B1"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 0,
+        "true_hits": 4,
+        "reads": 4,
+        "checker": "unknown",
+        "resolved_observed_set": null,
+        "private_label": "normal",
+        "checker_agreement": 0,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "B<k structurally prevents true completeness.",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "shared_root_false_count_once",
+      "graph": "fork4",
+      "private_false_node": "R",
+      "observed_parent_overrides": {},
+      "selected_aliases": [
+        "J",
+        "A",
+        "B",
+        "R"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 1,
+        "true_hits": 4,
+        "reads": 4,
+        "checker": "asserted_violation",
+        "resolved_observed_set": [
+          "J",
+          "A",
+          "B",
+          "R"
+        ],
+        "private_label": "violation",
+        "checker_agreement": 1,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "duplicate_parent_slot_invalid",
+      "graph": "fork4",
+      "private_false_node": null,
+      "observed_parent_overrides": {
+        "J": [
+          "A",
+          "A"
+        ]
+      },
+      "selected_aliases": [
+        "J",
+        "A",
+        "B",
+        "R"
+      ],
+      "scope": "negative contract fixture; excluded from evaluation",
+      "expected": {
+        "true_complete": 1,
+        "true_hits": 4,
+        "reads": 4,
+        "checker": "unknown",
+        "resolved_observed_set": null,
+        "private_label": "normal",
+        "checker_agreement": 0,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "cycle_invalid",
+      "graph": "fork4",
+      "private_false_node": null,
+      "observed_parent_overrides": {
+        "A": [
+          "J"
+        ]
+      },
+      "selected_aliases": [
+        "J",
+        "A",
+        "B",
+        "R"
+      ],
+      "scope": "negative contract fixture; excluded from evaluation",
+      "expected": {
+        "true_complete": 1,
+        "true_hits": 4,
+        "reads": 4,
+        "checker": "unknown",
+        "resolved_observed_set": null,
+        "private_label": "normal",
+        "checker_agreement": 0,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "nonpublic_target_invalid",
+      "graph": "fork4",
+      "private_false_node": null,
+      "observed_parent_overrides": {
+        "J": [
+          "A",
+          "X"
+        ]
+      },
+      "selected_aliases": [
+        "J",
+        "A",
+        "B",
+        "R"
+      ],
+      "scope": "negative contract fixture; excluded from evaluation",
+      "expected": {
+        "true_complete": 1,
+        "true_hits": 4,
+        "reads": 4,
+        "checker": "unknown",
+        "resolved_observed_set": null,
+        "private_label": "normal",
+        "checker_agreement": 0,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "",
+      "observed_arity_overrides": {},
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "rewritten_arity_can_hide_branch",
+      "graph": "fork4",
+      "private_false_node": "B",
+      "observed_parent_overrides": {
+        "J": [
+          "A"
+        ]
+      },
+      "selected_aliases": [
+        "J",
+        "A",
+        "B",
+        "R"
+      ],
+      "scope": "out-of-model trust counterexample; excluded from evaluation",
+      "expected": {
+        "true_complete": 1,
+        "true_hits": 4,
+        "reads": 4,
+        "checker": "asserted_normal",
+        "resolved_observed_set": [
+          "J",
+          "A",
+          "R"
+        ],
+        "private_label": "violation",
+        "checker_agreement": 0,
+        "false_normal": 1,
+        "false_violation": 0
+      },
+      "explanation": "Both arity and list changed coherently. The checker has no trusted dependency count; it cannot certify the private AND set.",
+      "observed_arity_overrides": {
+        "J": 1
+      },
+      "private_approval_overrides": {}
+    },
+    {
+      "id": "false_leaf_can_cause_false_violation",
+      "graph": "fork4",
+      "private_false_node": null,
+      "private_approval_overrides": {
+        "D00": false
+      },
+      "observed_parent_overrides": {
+        "J": [
+          "A",
+          "D00"
+        ]
+      },
+      "observed_arity_overrides": {},
+      "selected_aliases": [
+        "J",
+        "A",
+        "R",
+        "D00"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 0,
+        "true_hits": 3,
+        "reads": 4,
+        "checker": "asserted_violation",
+        "resolved_observed_set": [
+          "J",
+          "A",
+          "R",
+          "D00"
+        ],
+        "private_label": "normal",
+        "checker_agreement": 0,
+        "false_normal": 0,
+        "false_violation": 1
+      },
+      "explanation": "A negative distractor does not establish a required negative. Agreement, when present, can be coincidental."
+    },
+    {
+      "id": "agreement_from_wrong_negative_leaf",
+      "graph": "fork4",
+      "private_false_node": "B",
+      "private_approval_overrides": {
+        "D00": false
+      },
+      "observed_parent_overrides": {
+        "J": [
+          "A",
+          "D00"
+        ]
+      },
+      "observed_arity_overrides": {},
+      "selected_aliases": [
+        "J",
+        "A",
+        "R",
+        "D00"
+      ],
+      "scope": "evaluation-compatible evidence subset",
+      "expected": {
+        "true_complete": 0,
+        "true_hits": 3,
+        "reads": 4,
+        "checker": "asserted_violation",
+        "resolved_observed_set": [
+          "J",
+          "A",
+          "R",
+          "D00"
+        ],
+        "private_label": "violation",
+        "checker_agreement": 1,
+        "false_normal": 0,
+        "false_violation": 0
+      },
+      "explanation": "A negative distractor does not establish a required negative. Agreement, when present, can be coincidental."
+    }
+  ],
+  "intact_frontier_trace_expectations": [
+    {
+      "graph": "chain4",
+      "condition": "intact",
+      "budget": 4,
+      "expected_batches": [
+        [
+          "J"
+        ],
+        [
+          "B"
+        ],
+        [
+          "A"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "expected_reads": 4,
+      "expected_true_hits": 4,
+      "expected_true_complete": 1,
+      "expected_payload_rounds": 4,
+      "expected_total_input_bytes": 6272
+    },
+    {
+      "graph": "chain4",
+      "condition": "intact",
+      "budget": 8,
+      "expected_batches": [
+        [
+          "J"
+        ],
+        [
+          "B"
+        ],
+        [
+          "A"
+        ],
+        [
+          "R"
+        ],
+        [
+          "D00",
+          "D01",
+          "D02",
+          "D03"
+        ]
+      ],
+      "expected_reads": 8,
+      "expected_true_hits": 4,
+      "expected_true_complete": 1,
+      "expected_payload_rounds": 5,
+      "expected_total_input_bytes": 8320
+    },
+    {
+      "graph": "chain4",
+      "condition": "intact",
+      "budget": 12,
+      "expected_batches": [
+        [
+          "J"
+        ],
+        [
+          "B"
+        ],
+        [
+          "A"
+        ],
+        [
+          "R"
+        ],
+        [
+          "D00",
+          "D01",
+          "D02",
+          "D03",
+          "D04",
+          "D05",
+          "D06",
+          "D07"
+        ]
+      ],
+      "expected_reads": 12,
+      "expected_true_hits": 4,
+      "expected_true_complete": 1,
+      "expected_payload_rounds": 5,
+      "expected_total_input_bytes": 10368
+    },
+    {
+      "graph": "fork4",
+      "condition": "intact",
+      "budget": 4,
+      "expected_batches": [
+        [
+          "J"
+        ],
+        [
+          "A",
+          "B"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "expected_reads": 4,
+      "expected_true_hits": 4,
+      "expected_true_complete": 1,
+      "expected_payload_rounds": 3,
+      "expected_total_input_bytes": 6272
+    },
+    {
+      "graph": "fork4",
+      "condition": "intact",
+      "budget": 8,
+      "expected_batches": [
+        [
+          "J"
+        ],
+        [
+          "A",
+          "B"
+        ],
+        [
+          "R"
+        ],
+        [
+          "D00",
+          "D01",
+          "D02",
+          "D03"
+        ]
+      ],
+      "expected_reads": 8,
+      "expected_true_hits": 4,
+      "expected_true_complete": 1,
+      "expected_payload_rounds": 4,
+      "expected_total_input_bytes": 8320
+    },
+    {
+      "graph": "fork4",
+      "condition": "intact",
+      "budget": 12,
+      "expected_batches": [
+        [
+          "J"
+        ],
+        [
+          "A",
+          "B"
+        ],
+        [
+          "R"
+        ],
+        [
+          "D00",
+          "D01",
+          "D02",
+          "D03",
+          "D04",
+          "D05",
+          "D06",
+          "D07"
+        ]
+      ],
+      "expected_reads": 12,
+      "expected_true_hits": 4,
+      "expected_true_complete": 1,
+      "expected_payload_rounds": 4,
+      "expected_total_input_bytes": 10368
+    },
+    {
+      "graph": "chain8",
+      "condition": "intact",
+      "budget": 4,
+      "expected_batches": [
+        [
+          "J"
+        ],
+        [
+          "B3"
+        ],
+        [
+          "B2"
+        ],
+        [
+          "B1"
+        ]
+      ],
+      "expected_reads": 4,
+      "expected_true_hits": 4,
+      "expected_true_complete": 0,
+      "expected_payload_rounds": 4,
+      "expected_total_input_bytes": 6272
+    },
+    {
+      "graph": "chain8",
+      "condition": "intact",
+      "budget": 8,
+      "expected_batches": [
+        [
+          "J"
+        ],
+        [
+          "B3"
+        ],
+        [
+          "B2"
+        ],
+        [
+          "B1"
+        ],
+        [
+          "A3"
+        ],
+        [
+          "A2"
+        ],
+        [
+          "A1"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "expected_reads": 8,
+      "expected_true_hits": 8,
+      "expected_true_complete": 1,
+      "expected_payload_rounds": 8,
+      "expected_total_input_bytes": 8320
+    },
+    {
+      "graph": "chain8",
+      "condition": "intact",
+      "budget": 12,
+      "expected_batches": [
+        [
+          "J"
+        ],
+        [
+          "B3"
+        ],
+        [
+          "B2"
+        ],
+        [
+          "B1"
+        ],
+        [
+          "A3"
+        ],
+        [
+          "A2"
+        ],
+        [
+          "A1"
+        ],
+        [
+          "R"
+        ],
+        [
+          "D00",
+          "D01",
+          "D02",
+          "D03"
+        ]
+      ],
+      "expected_reads": 12,
+      "expected_true_hits": 8,
+      "expected_true_complete": 1,
+      "expected_payload_rounds": 9,
+      "expected_total_input_bytes": 10368
+    },
+    {
+      "graph": "fork8",
+      "condition": "intact",
+      "budget": 4,
+      "expected_batches": [
+        [
+          "J"
+        ],
+        [
+          "A3",
+          "B3"
+        ],
+        [
+          "A2"
+        ]
+      ],
+      "expected_reads": 4,
+      "expected_true_hits": 4,
+      "expected_true_complete": 0,
+      "expected_payload_rounds": 3,
+      "expected_total_input_bytes": 6272
+    },
+    {
+      "graph": "fork8",
+      "condition": "intact",
+      "budget": 8,
+      "expected_batches": [
+        [
+          "J"
+        ],
+        [
+          "A3",
+          "B3"
+        ],
+        [
+          "A2",
+          "B2"
+        ],
+        [
+          "A1",
+          "B1"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "expected_reads": 8,
+      "expected_true_hits": 8,
+      "expected_true_complete": 1,
+      "expected_payload_rounds": 5,
+      "expected_total_input_bytes": 8320
+    },
+    {
+      "graph": "fork8",
+      "condition": "intact",
+      "budget": 12,
+      "expected_batches": [
+        [
+          "J"
+        ],
+        [
+          "A3",
+          "B3"
+        ],
+        [
+          "A2",
+          "B2"
+        ],
+        [
+          "A1",
+          "B1"
+        ],
+        [
+          "R"
+        ],
+        [
+          "D00",
+          "D01",
+          "D02",
+          "D03"
+        ]
+      ],
+      "expected_reads": 12,
+      "expected_true_hits": 8,
+      "expected_true_complete": 1,
+      "expected_payload_rounds": 6,
+      "expected_total_input_bytes": 10368
+    }
+  ],
+  "required_cartesian_test_axes": {
+    "topology": [
+      "chain",
+      "and_fork_join"
+    ],
+    "k": [
+      4,
+      8
+    ],
+    "budget": [
+      4,
+      8,
+      12
+    ],
+    "label": [
+      "normal",
+      "violation"
+    ],
+    "condition": [
+      "intact",
+      "one_anchor_reference_null",
+      "one_anchor_reference_false_leaf"
+    ]
+  },
+  "negative_tests_to_implement": [
+    "reader duplicate within batch",
+    "reader already-read request",
+    "reader nonpublic request",
+    "reader over-budget rejection is atomic",
+    "payload ID mismatch",
+    "arity not integer or Boolean-as-integer",
+    "arity/list length mismatch",
+    "approval not Boolean",
+    "payload serialization overflow",
+    "reference invalid format",
+    "cycle vs shared ancestor distinction",
+    "both shared-ancestor discovery orders",
+    "budget truncates breadth-first layer",
+    "no expansion after fallback",
+    "zero evidence",
+    "identical public inputs under changed private truth",
+    "approval-value flip leaves selection unchanged",
+    "catalog order and dictionary order invariance",
+    "private branch name invariance",
+    "parent array order invariance",
+    "lexical-order-preserving ID rename",
+    "no private fields in catalog/query/selector/checker arguments",
+    "distractor nonzero arity does not imply required membership",
+    "distractor false approval does not imply private violation label"
+  ],
+  "analytic_expectations": [
+    {
+      "topology": "chain",
+      "k": 4,
+      "budget": 4,
+      "condition": "intact",
+      "reachable_true_q": 4,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "1",
+      "blind_complete_probability_exact": "1/4495",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 4,
+      "budget": 4,
+      "condition": "one_anchor_reference_null",
+      "reachable_true_q": 1,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "1/4495",
+      "blind_complete_probability_exact": "1/4495",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 4,
+      "budget": 4,
+      "condition": "one_anchor_reference_false_leaf",
+      "reachable_true_q": 1,
+      "reachable_distractors_d": 1,
+      "frontier_complete_probability_exact": "0",
+      "blind_complete_probability_exact": "1/4495",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 4,
+      "budget": 8,
+      "condition": "intact",
+      "reachable_true_q": 4,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "1",
+      "blind_complete_probability_exact": "7/899",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 4,
+      "budget": 8,
+      "condition": "one_anchor_reference_null",
+      "reachable_true_q": 1,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "7/899",
+      "blind_complete_probability_exact": "7/899",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 4,
+      "budget": 8,
+      "condition": "one_anchor_reference_false_leaf",
+      "reachable_true_q": 1,
+      "reachable_distractors_d": 1,
+      "frontier_complete_probability_exact": "1/203",
+      "blind_complete_probability_exact": "7/899",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 4,
+      "budget": 12,
+      "condition": "intact",
+      "reachable_true_q": 4,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "1",
+      "blind_complete_probability_exact": "33/899",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 4,
+      "budget": 12,
+      "condition": "one_anchor_reference_null",
+      "reachable_true_q": 1,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "33/899",
+      "blind_complete_probability_exact": "33/899",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 4,
+      "budget": 12,
+      "condition": "one_anchor_reference_false_leaf",
+      "reachable_true_q": 1,
+      "reachable_distractors_d": 1,
+      "frontier_complete_probability_exact": "6/203",
+      "blind_complete_probability_exact": "33/899",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 8,
+      "budget": 4,
+      "condition": "intact",
+      "reachable_true_q": 8,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "0",
+      "blind_complete_probability_exact": "0",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 8,
+      "budget": 4,
+      "condition": "one_anchor_reference_null",
+      "reachable_true_q": 1,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "0",
+      "blind_complete_probability_exact": "0",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 8,
+      "budget": 4,
+      "condition": "one_anchor_reference_false_leaf",
+      "reachable_true_q": 1,
+      "reachable_distractors_d": 1,
+      "frontier_complete_probability_exact": "0",
+      "blind_complete_probability_exact": "0",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 8,
+      "budget": 8,
+      "condition": "intact",
+      "reachable_true_q": 8,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "1",
+      "blind_complete_probability_exact": "1/2629575",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 8,
+      "budget": 8,
+      "condition": "one_anchor_reference_null",
+      "reachable_true_q": 1,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "1/2629575",
+      "blind_complete_probability_exact": "1/2629575",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 8,
+      "budget": 8,
+      "condition": "one_anchor_reference_false_leaf",
+      "reachable_true_q": 1,
+      "reachable_distractors_d": 1,
+      "frontier_complete_probability_exact": "0",
+      "blind_complete_probability_exact": "1/2629575",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 8,
+      "budget": 12,
+      "condition": "intact",
+      "reachable_true_q": 8,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "1",
+      "blind_complete_probability_exact": "22/175305",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 8,
+      "budget": 12,
+      "condition": "one_anchor_reference_null",
+      "reachable_true_q": 1,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "22/175305",
+      "blind_complete_probability_exact": "22/175305",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "chain",
+      "k": 8,
+      "budget": 12,
+      "condition": "one_anchor_reference_false_leaf",
+      "reachable_true_q": 1,
+      "reachable_distractors_d": 1,
+      "frontier_complete_probability_exact": "1/16965",
+      "blind_complete_probability_exact": "22/175305",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 4,
+      "budget": 4,
+      "condition": "intact",
+      "reachable_true_q": 4,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "1",
+      "blind_complete_probability_exact": "1/4495",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 4,
+      "budget": 4,
+      "condition": "one_anchor_reference_null",
+      "reachable_true_q": 3,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "1/29",
+      "blind_complete_probability_exact": "1/4495",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 4,
+      "budget": 4,
+      "condition": "one_anchor_reference_false_leaf",
+      "reachable_true_q": 3,
+      "reachable_distractors_d": 1,
+      "frontier_complete_probability_exact": "0",
+      "blind_complete_probability_exact": "1/4495",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 4,
+      "budget": 8,
+      "condition": "intact",
+      "reachable_true_q": 4,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "1",
+      "blind_complete_probability_exact": "7/899",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 4,
+      "budget": 8,
+      "condition": "one_anchor_reference_null",
+      "reachable_true_q": 3,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "5/29",
+      "blind_complete_probability_exact": "7/899",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 4,
+      "budget": 8,
+      "condition": "one_anchor_reference_false_leaf",
+      "reachable_true_q": 3,
+      "reachable_distractors_d": 1,
+      "frontier_complete_probability_exact": "1/7",
+      "blind_complete_probability_exact": "7/899",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 4,
+      "budget": 12,
+      "condition": "intact",
+      "reachable_true_q": 4,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "1",
+      "blind_complete_probability_exact": "33/899",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 4,
+      "budget": 12,
+      "condition": "one_anchor_reference_null",
+      "reachable_true_q": 3,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "9/29",
+      "blind_complete_probability_exact": "33/899",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 4,
+      "budget": 12,
+      "condition": "one_anchor_reference_false_leaf",
+      "reachable_true_q": 3,
+      "reachable_distractors_d": 1,
+      "frontier_complete_probability_exact": "2/7",
+      "blind_complete_probability_exact": "33/899",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 8,
+      "budget": 4,
+      "condition": "intact",
+      "reachable_true_q": 8,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "0",
+      "blind_complete_probability_exact": "0",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 8,
+      "budget": 4,
+      "condition": "one_anchor_reference_null",
+      "reachable_true_q": 5,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "0",
+      "blind_complete_probability_exact": "0",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 8,
+      "budget": 4,
+      "condition": "one_anchor_reference_false_leaf",
+      "reachable_true_q": 5,
+      "reachable_distractors_d": 1,
+      "frontier_complete_probability_exact": "0",
+      "blind_complete_probability_exact": "0",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 8,
+      "budget": 8,
+      "condition": "intact",
+      "reachable_true_q": 8,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "1",
+      "blind_complete_probability_exact": "1/2629575",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 8,
+      "budget": 8,
+      "condition": "one_anchor_reference_null",
+      "reachable_true_q": 5,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "1/2925",
+      "blind_complete_probability_exact": "1/2629575",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 8,
+      "budget": 8,
+      "condition": "one_anchor_reference_false_leaf",
+      "reachable_true_q": 5,
+      "reachable_distractors_d": 1,
+      "frontier_complete_probability_exact": "0",
+      "blind_complete_probability_exact": "1/2629575",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 8,
+      "budget": 12,
+      "condition": "intact",
+      "reachable_true_q": 8,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "1",
+      "blind_complete_probability_exact": "22/175305",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 8,
+      "budget": 12,
+      "condition": "one_anchor_reference_null",
+      "reachable_true_q": 5,
+      "reachable_distractors_d": 0,
+      "frontier_complete_probability_exact": "7/585",
+      "blind_complete_probability_exact": "22/175305",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    },
+    {
+      "topology": "and_fork_join",
+      "k": 8,
+      "budget": 12,
+      "condition": "one_anchor_reference_false_leaf",
+      "reachable_true_q": 5,
+      "reachable_distractors_d": 1,
+      "frontier_complete_probability_exact": "1/130",
+      "blind_complete_probability_exact": "22/175305",
+      "status": "analytic under uniform opaque IDs; not an empirical result"
+    }
+  ],
+  "external_fixture_alias_ids": {
+    "X": "ffffffffffffffffffffffffffffffff"
+  }
+}

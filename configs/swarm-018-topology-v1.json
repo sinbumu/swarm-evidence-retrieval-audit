@@ -1,0 +1,135 @@
+{
+  "protocol": "SWARM-018-topology-v1",
+  "required_record_counts_k": [
+    4,
+    8
+  ],
+  "k_includes": [
+    "root",
+    "anchor_join",
+    "each_distinct_required_ancestor_once"
+  ],
+  "topologies": [
+    "chain",
+    "and_fork_join"
+  ],
+  "candidate_records": 32,
+  "payload_budgets": [
+    4,
+    8,
+    12
+  ],
+  "metadata_record_bytes": 128,
+  "query_bytes": 128,
+  "payload_record_bytes": 512,
+  "conditions": [
+    "intact",
+    "one_anchor_reference_null",
+    "one_anchor_reference_false_leaf"
+  ],
+  "label_views": [
+    "normal",
+    "violation"
+  ],
+  "label_rule": "AND of private approval values over the private required ancestor closure, including anchor",
+  "normal_approval_rule": "all required records true; distractor approval bits independent Bernoulli(0.5), shared across paired label views",
+  "violation_approval_rule": "one uniformly chosen required nonanchor false; other required records true; same distractor approval bits as normal view",
+  "fault_rule": "exactly one anchor parent slot changed; true DAG, required set, approvals and declared arity unchanged",
+  "edge_authentication": "none",
+  "methods": [
+    "blind_id_batch",
+    "pointer_frontier_bfs"
+  ],
+  "budgeted_oracle_diagnostic": "true_set_oracle",
+  "unbudgeted_observed_diagnostic": "full_catalog_checker",
+  "frontier_order": "breadth first by discovered depth, ascending opaque ID within a depth",
+  "frontier_fallback": "one final batch of smallest unread opaque IDs; never expand fallback payloads",
+  "frontier_uses": [
+    "anchor_id",
+    "budget",
+    "catalog IDs and sizes",
+    "already read payload IDs, declared arity and parent slots"
+  ],
+  "checker_outputs": [
+    "asserted_normal",
+    "asserted_violation",
+    "unknown"
+  ],
+  "primary_metric": "private_true_set_complete",
+  "secondary_retrieval_metrics": [
+    "private_true_set_recall",
+    "private_true_set_precision",
+    "distractor_reads",
+    "unread_required_records",
+    "true_edge_endpoint_coverage"
+  ],
+  "checker_diagnostics": [
+    "observed_closure_resolved",
+    "checker_asserted_normal",
+    "checker_asserted_violation",
+    "checker_unknown",
+    "checker_agrees_with_private_label",
+    "checker_false_normal",
+    "checker_false_violation",
+    "resolved_observed_set_equals_true_set"
+  ],
+  "dev_seeds": [
+    601,
+    602,
+    603,
+    604,
+    605,
+    606
+  ],
+  "eval_seed_first": 6001,
+  "eval_seed_last_inclusive": 6096,
+  "eval_family_count": 96,
+  "evaluation_family_views": 72,
+  "evaluation_views": 6912,
+  "evaluation_budgeted_rows_including_oracle": 20736,
+  "evaluation_full_catalog_diagnostic_rows": 2304,
+  "identity_randomization": "private 256-bit key sampled once per split before generation; domain-separated HMAC-SHA256 opaque 128-bit IDs, without replacement by collision-fail policy",
+  "primary_contrast": "pointer_frontier_bfs AND-fork/join minus chain complete recovery, at each fixed k/budget/condition; average two label views within family",
+  "primary_contrast_count": 18,
+  "negative_control_contrast": "blind_id_batch AND-fork/join minus chain at each k/budget/condition",
+  "negative_control_contrast_count": 18,
+  "secondary_method_contrast": "pointer_frontier_bfs minus blind_id_batch, at each topology/k/budget/condition",
+  "secondary_method_contrast_count": 36,
+  "independent_unit": "fresh seed family; all topology, k, budget, fault and label views remain clustered",
+  "bootstrap_resamples": 2000,
+  "bootstrap_family_indices": "one shared saved 2000-by-96 matrix for all 72 contrasts; Python random.Random seeded by integer SHA256 of UTF-8 SWARM-018-topology-v1|family-bootstrap",
+  "bootstrap_percentile_zero_based_indices": [
+    49,
+    1949
+  ],
+  "multiplicity_adjustment": "none; descriptive conditional intervals, no significance-based method selection",
+  "overall_mixture_headline": false,
+  "modeled_rtt_ms": [
+    0,
+    1,
+    10
+  ],
+  "development_run_limit": 2,
+  "evaluation_run_limit": 1,
+  "identical_setting_reproduction_limit": 1,
+  "phase1_stop_by_kst": "2026-11-08T09:13:13+09:00",
+  "latest_phase2_acceptance_for_worst_case_plan_kst": "2026-11-08T10:29:00+09:00",
+  "whole_study_target_kst": "2026-11-08T20:59:00+09:00",
+  "overall_deadline_kst": "2026-11-09T20:59:00+09:00",
+  "random_namespaces": [
+    "id",
+    "violation_node",
+    "anchor_branch",
+    "false_leaf",
+    "distractor_approval"
+  ],
+  "private_stream_encoding": "ASCII compact canonical JSON array [protocol, split, family_seed, k, namespace, ...parts]",
+  "random_choice_rule": "random.Random(big-endian integer HMAC-SHA256 digest).randrange(number_of_choices), one independent stream per namespace",
+  "created_in_design_phase": 1,
+  "implementation_requires_next_accepted_unit": true,
+  "analytic_completion_checks": "Frozen combinatorial expectations for blind and complete-frontier-then-fallback; theoretical, not observed rates",
+  "development_bootstrap": "Same fixed hash seed, 2000 rows, 6 family indices per row via randrange(6); never use evaluation families",
+  "distractor_structure": "disjoint four-record AND diamonds: root, two one-parent branches, two-parent join; (32-k)/4 components",
+  "distractor_approval_true_probability": 0.5,
+  "false_leaf_target_rule": "uniform among distractor component roots, independent of their approval and the true label"
+}

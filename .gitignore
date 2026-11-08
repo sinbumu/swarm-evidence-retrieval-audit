@@ -1,0 +1,12 @@
+# Local-only evidence, credentials and machine output
+.local/
+runs/
+.env
+.env.*
+*.key
+*.pem
+*.log
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store

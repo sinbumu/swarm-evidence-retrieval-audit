@@ -1,0 +1,1446 @@
+{
+  "schema_version": 1,
+  "snapshot": "Owner-approved public source and aggregate snapshot",
+  "source_snapshot_commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+  "source_document_commit": "03914899e361944c4a687070f483f663f1dd40b3",
+  "origin_visibility": "private",
+  "target_repository": "https://github.com/sinbumu/swarm-evidence-retrieval-audit",
+  "target_visibility_at_preparation": "public; empty remote",
+  "history_included": false,
+  "prospective_freeze_independently_verifiable": false,
+  "license_selected": "MIT for project Python source and research tests only",
+  "publication_approved": true,
+  "research_or_tests_executed_for_snapshot": false,
+  "payload_file_count": 80,
+  "manifest_scope": "This index lists every payload file. Its own hash is recorded in the separate local approval receipt to avoid self-reference.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "1473d286fc82ab442e26a09a950e2685e8053187995772cd62c8c80c4705e575",
+      "bytes": 138,
+      "kind": "generated",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": ".gitignore",
+          "sha256": "600eaf48a8c9b58f953617ca8fd6ace765ffb384481ddb95e26a7baee01fb372"
+        }
+      ],
+      "changes_and_purpose": "New snapshot exclusions; allowlist, not ignore patterns, controls this preparation.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "LICENSE",
+      "kind": "generated",
+      "origins": [],
+      "changes_and_purpose": "Owner-approved code-only scope followed by standard MIT text from GitHub licenses API; 2026 sinbumu attribution. Does not grant a license over other materials.",
+      "license_status": "License notice; scope only src/**/*.py and tests/test_record_*.py",
+      "sha256": "198909a4acff245de581602e920a5925ab0e3f14e439d20c5255b8fd8ae336af",
+      "bytes": 1554
+    },
+    {
+      "path": "README.md",
+      "sha256": "b8b948bb389a44b0c319fb2d785f760e89d3d868269efa5afb9df211c6e4ae0e",
+      "bytes": 5415,
+      "kind": "generated",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "03914899e361944c4a687070f483f663f1dd40b3",
+          "path": "report/swarm-report-draft.md",
+          "sha256": "1a2a7f8cade5346f4f78305095d4616c6020c2f53d8ac7986dbc3b3e77c393d2"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "report/README.md",
+          "sha256": "c0f9241eb009d0c463583849f85b3672508b8e3b19ca708489de0479fe61ce3f"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "docs/swarm-018-results.md",
+          "sha256": "4555ec6500db699a7909887cfd6a8b10b53748dd0f90fab3b658752e0042729d"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/run.py",
+          "sha256": "12773abe5cd8b341fa113091edb388521416a75c35a03e483f198753b0452621"
+        }
+      ],
+      "changes_and_purpose": "New public-facing scope, navigation, provenance limits and explicit non-reproduction statement. Clarify public-snapshot test/format coverage. Publication update: owner-approved public scope, code-only MIT and retained scientific/submission limits.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "configs/swarm-007-pilot.json",
+      "sha256": "990f522167a7afdc61369fd500f1732ab42861d9a0b9e43a8ea24943c8bc3a97",
+      "bytes": 1024,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "configs/swarm-007-pilot.json",
+          "sha256": "990f522167a7afdc61369fd500f1732ab42861d9a0b9e43a8ea24943c8bc3a97"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "configs/swarm-009-validation.json",
+      "sha256": "d97d3c7b210708ddc9f03a2b9b3e305f1e1e218a7be0c02e6a76506fc1f5fd99",
+      "bytes": 4457,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "configs/swarm-009-validation.json",
+          "sha256": "d97d3c7b210708ddc9f03a2b9b3e305f1e1e218a7be0c02e6a76506fc1f5fd99"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "configs/swarm-016-object.json",
+      "sha256": "58bdee35b3e48ba686daf5c330aae0e1384ecb38be7d3af606538dce4ce531ac",
+      "bytes": 5949,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "configs/swarm-016-object.json",
+          "sha256": "58bdee35b3e48ba686daf5c330aae0e1384ecb38be7d3af606538dce4ce531ac"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "configs/swarm-016-repeat.json",
+      "sha256": "bed22f784d57f1b52b2751304b7a19a0f938cc0ea2c92d2b466c3bf4a0d435cc",
+      "bytes": 6144,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "configs/swarm-016-repeat.json",
+          "sha256": "bed22f784d57f1b52b2751304b7a19a0f938cc0ea2c92d2b466c3bf4a0d435cc"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "configs/swarm-017-reserve.json",
+      "sha256": "6c20279058acad0b364ab417436fe0dbbaa46ab614e39408e42d6bea9853007d",
+      "bytes": 5979,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "configs/swarm-017-reserve.json",
+          "sha256": "6c20279058acad0b364ab417436fe0dbbaa46ab614e39408e42d6bea9853007d"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "configs/swarm-018-bootstrap-eval.json",
+      "sha256": "87db84f261711bade8872ab49c9d30fc84a6ed10bbee98778e0eb23cf00668f1",
+      "bytes": 1531899,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "configs/swarm-018-bootstrap-eval.json",
+          "sha256": "87db84f261711bade8872ab49c9d30fc84a6ed10bbee98778e0eb23cf00668f1"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "configs/swarm-018-topology-v1.json",
+      "sha256": "5e6c79c232ba70e805c3f4e007a2ca2a241b8c58994141cfb1284303e21b9134",
+      "bytes": 5305,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "configs/swarm-018-topology-v1.json",
+          "sha256": "5e6c79c232ba70e805c3f4e007a2ca2a241b8c58994141cfb1284303e21b9134"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "docs/evidence-availability.md",
+      "sha256": "2bc67bf26b39a5c1b0621fffc2f2c7bac08509932c974d0f0485a4c06a001e93",
+      "bytes": 4353,
+      "kind": "generated",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "report/README.md",
+          "sha256": "c0f9241eb009d0c463583849f85b3672508b8e3b19ca708489de0479fe61ce3f"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "report/claim-evidence.md",
+          "sha256": "84b75912022e4e9f9e07ab5c26189e9bd042f258c62e9fab73af79e94699183a"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/run.py",
+          "sha256": "12773abe5cd8b341fa113091edb388521416a75c35a03e483f198753b0452621"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_validation/run.py",
+          "sha256": "86affd101249184f1871f3a38a990125107b3f5778a62bb815fcd4d48e3e2edb"
+        }
+      ],
+      "changes_and_purpose": "New accessible-evidence map and exact-reproduction limitations; no inaccessible material represented as included. Clarify public-snapshot test/format coverage. Publication update: owner-approved public scope, code-only MIT and retained scientific/submission limits.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "docs/research-history.md",
+      "sha256": "dccdb91cd005bcd5d3eba96f3598ecb92347dc7f426883e5614552199e32c029",
+      "bytes": 3969,
+      "kind": "generated",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "03914899e361944c4a687070f483f663f1dd40b3",
+          "path": "report/swarm-report-draft.md",
+          "sha256": "1a2a7f8cade5346f4f78305095d4616c6020c2f53d8ac7986dbc3b3e77c393d2"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "docs/swarm-017-initial-failure.md",
+          "sha256": "b8988bb290f9da226ac016fd194be26b2ce0f46a5ab3f1a8aefddd2aca96dd9f"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "docs/swarm-018-implementation.md",
+          "sha256": "33089fd0b8b11aee8675414c539a0deb9110dc65b3bf193040f2a0d7bccfd824"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "reports/swarm-016-verification.json",
+          "sha256": "4f201fc45c99ec5c23ef59bdc52b2f362dfe09cac05f926605f142f09a1fccb1"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "reports/swarm-017-verification.json",
+          "sha256": "6d0d3d8f3a86effa79caafd4308cc8cda46b801e386130b57ed61868db54067e"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "reports/swarm-018-verification.json",
+          "sha256": "a6cec5d4cb7404868eaf48d7c81545a39868ad053fddd1f0e3139a051adf2571"
+        }
+      ],
+      "changes_and_purpose": "New scientific chronology/failure summary; omit internal conversations, local home paths and private receipt contents.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "docs/rights-and-publication.md",
+      "sha256": "17bd625e2a08af8fb406e246d1fccccaec3634ff53175c86c4a3f16d174b9497",
+      "bytes": 3489,
+      "kind": "generated",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "report/README.md",
+          "sha256": "c0f9241eb009d0c463583849f85b3672508b8e3b19ca708489de0479fe61ce3f"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "03914899e361944c4a687070f483f663f1dd40b3",
+          "path": "report/swarm-report-draft.md",
+          "sha256": "1a2a7f8cade5346f4f78305095d4616c6020c2f53d8ac7986dbc3b3e77c393d2"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "report/claim-evidence.md",
+          "sha256": "84b75912022e4e9f9e07ab5c26189e9bd042f258c62e9fab73af79e94699183a"
+        }
+      ],
+      "changes_and_purpose": "New rights/publication decision record; no license or redistribution warranty chosen. Publication update: owner-approved public scope, code-only MIT and retained scientific/submission limits.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "docs/study-guide.md",
+      "sha256": "e83c91f0a4b7a4cb4099912e076abb3c4856911c870833bf33b8cc03e8757042",
+      "bytes": 4791,
+      "kind": "generated",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "03914899e361944c4a687070f483f663f1dd40b3",
+          "path": "report/swarm-report-draft.md",
+          "sha256": "1a2a7f8cade5346f4f78305095d4616c6020c2f53d8ac7986dbc3b3e77c393d2"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "configs/swarm-007-pilot.json",
+          "sha256": "990f522167a7afdc61369fd500f1732ab42861d9a0b9e43a8ea24943c8bc3a97"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "configs/swarm-009-validation.json",
+          "sha256": "d97d3c7b210708ddc9f03a2b9b3e305f1e1e218a7be0c02e6a76506fc1f5fd99"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "configs/swarm-016-repeat.json",
+          "sha256": "bed22f784d57f1b52b2751304b7a19a0f938cc0ea2c92d2b466c3bf4a0d435cc"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "configs/swarm-016-object.json",
+          "sha256": "58bdee35b3e48ba686daf5c330aae0e1384ecb38be7d3af606538dce4ce531ac"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "configs/swarm-017-reserve.json",
+          "sha256": "6c20279058acad0b364ab417436fe0dbbaa46ab614e39408e42d6bea9853007d"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "configs/swarm-018-topology-v1.json",
+          "sha256": "5e6c79c232ba70e805c3f4e007a2ca2a241b8c58994141cfb1284303e21b9134"
+        }
+      ],
+      "changes_and_purpose": "New cross-study map from frozen configs and latest manuscript; no new measured result.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "docs/swarm-007-pilot.md",
+      "sha256": "3ed464e4d5f0fd9c0bfb8486edaa43f7da0243ad61daf74181482eb8b2006c20",
+      "bytes": 2558,
+      "kind": "generated",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "docs/swarm-007-pilot.md",
+          "sha256": "1a13053b0f0160d8746915529832d41718388ad8efdd0445051d70a186490532"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "03914899e361944c4a687070f483f663f1dd40b3",
+          "path": "report/swarm-report-draft.md",
+          "sha256": "1a2a7f8cade5346f4f78305095d4616c6020c2f53d8ac7986dbc3b3e77c393d2"
+        }
+      ],
+      "changes_and_purpose": "New condensed protocol description; private operational/third-party review material omitted.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "docs/swarm-016-object-protocol.md",
+      "sha256": "aa87325c1e1683b786d1454286bdf2370c5b5ed32b6fb8b536fb9b0b35017d85",
+      "bytes": 8486,
+      "kind": "adapted",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "docs/swarm-016-object-protocol.md",
+          "sha256": "0e7906167a67f85d1d83577d64fa1e4f658f4cc8f7586956991e3163dc31b407"
+        }
+      ],
+      "changes_and_purpose": "Scientific protocol excerpt; internal review/next-task paragraph omitted.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "docs/swarm-016-repeat-protocol.md",
+      "sha256": "f4665bb51e9707331b9300dfbf33acc953fedd75f7df59d6ba6efedaa1b376d1",
+      "bytes": 5233,
+      "kind": "adapted",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "docs/swarm-016-repeat-protocol.md",
+          "sha256": "b5e6dcb7eb2b8815fe0b1badb99caf4051399724568d45dfbcae460724807b78"
+        }
+      ],
+      "changes_and_purpose": "Historical scientific protocol excerpt; internal authorization introduction/time-planning boundary omitted; no design or results changed.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "docs/swarm-016-results.md",
+      "sha256": "6a317d5c2041bb4825966585f0bf3d8531b69fa4c945aabc55d56aa75fb51f22",
+      "bytes": 10909,
+      "kind": "adapted",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "docs/swarm-016-results.md",
+          "sha256": "3b8ac7e6652d0161ad5266ee5b2c0d60dc3b66ba82bc0619e8fe5ef8b2a7463f"
+        }
+      ],
+      "changes_and_purpose": "All result tables and scientific interpretation retained; private audit paths/internal next-step proposal omitted; historical validation described separately.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "docs/swarm-017-protocol.md",
+      "sha256": "58e8e43a08dbba61a55181b16bb10ee91335edfbb8e3ebcd09538a10a6f8e68a",
+      "bytes": 6548,
+      "kind": "adapted",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "docs/swarm-017-protocol.md",
+          "sha256": "bbee6962c8ff5a66c8bac2981e0fbe8f6c581220f6a12ebae52472e0aa58ffd1"
+        }
+      ],
+      "changes_and_purpose": "Retain selector/accounting/cohort/analysis/stopping rules; summarize chronology and omit internal scheduling/delivery instructions.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "docs/swarm-017-results.md",
+      "sha256": "9c09089e645d55a921955ec208d47d44d1b09b80ba88542331fa3831f669902f",
+      "bytes": 20146,
+      "kind": "adapted",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "docs/swarm-017-results.md",
+          "sha256": "c7f9959a6417eaf7d9e91b431cd75410dbfae9828226c059f874831dc14cbce4"
+        }
+      ],
+      "changes_and_purpose": "All numerical tables retained; replace private trace access and internal chronology with bounded historical record. Fix inaccessible verification link and avoid public-preregistration implication.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "docs/swarm-018-acceptance-v1.md",
+      "sha256": "88764df4b470bd771462f1192b38e7da8db7516573515e89426524fda9787f69",
+      "bytes": 8549,
+      "kind": "adapted",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "docs/swarm-018-acceptance-v1.md",
+          "sha256": "be3218fb996d83f30b99afc21291a24c2825b1e151e7193d157e743c686f813e"
+        }
+      ],
+      "changes_and_purpose": "Retain counterexample and assumption-challenge tables; omit internal acceptance checklist and task dispatch. Hand examples are not observations.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "docs/swarm-018-results.md",
+      "sha256": "01fd4efddfd2c6d39769f110ce62e98cdd1a7f2146db860b8e2ec0aeb2cdf499",
+      "bytes": 47481,
+      "kind": "adapted",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "docs/swarm-018-results.md",
+          "sha256": "4555ec6500db699a7909887cfd6a8b10b53748dd0f90fab3b658752e0042729d"
+        }
+      ],
+      "changes_and_purpose": "All numerical tables/contrasts retained; apply SWARM-020/021 blind-difference wording; remove inaccessible private evidence links and executable audit example.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "docs/swarm-018-topology-protocol-v1.md",
+      "sha256": "e2b827c7a460d1f3b5c254adde857cd1e1fe8a3267420ae8d3acaf7ace2944c9",
+      "bytes": 36606,
+      "kind": "adapted",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "docs/swarm-018-topology-protocol-v1.md",
+          "sha256": "4ba5e805bf15ae2332d0db39d33bee41a8c114ffb2493d8443b2058fa155f2e3"
+        }
+      ],
+      "changes_and_purpose": "Retain sections1–10 and scientific limitations; omit internal work-unit/scheduling/delivery instructions; this adapted file is not the original hash-frozen protocol.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "fixtures/swarm-018-topology-v1.json",
+      "sha256": "c8f6ec8eb86a14b467998379c073098917b8a6342f6c28cbdcc9b20be20e9b9b",
+      "bytes": 56799,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "fixtures/swarm-018-topology-v1.json",
+          "sha256": "c8f6ec8eb86a14b467998379c073098917b8a6342f6c28cbdcc9b20be20e9b9b"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "report/README.md",
+      "sha256": "fd2dd75acd02a484c9c68bc1b7875478a99e811988f4247243ead8d14a3d51b1",
+      "bytes": 1771,
+      "kind": "generated",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "report/README.md",
+          "sha256": "c0f9241eb009d0c463583849f85b3672508b8e3b19ca708489de0479fe61ce3f"
+        },
+        {
+          "repository": "private origin; history not included",
+          "commit": "03914899e361944c4a687070f483f663f1dd40b3",
+          "path": "report/swarm-report-draft.md",
+          "sha256": "1a2a7f8cade5346f4f78305095d4616c6020c2f53d8ac7986dbc3b3e77c393d2"
+        }
+      ],
+      "changes_and_purpose": "New manuscript access/change guide; no inaccessible private artifact links offered. Publication update: owner-approved public scope, code-only MIT and retained scientific/submission limits.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "report/assets/condition-results.png",
+      "sha256": "a9114b28eb6d943a97a039f10fe9d92dc75d9615a3d40843c3dee290245f5cb6",
+      "bytes": 107565,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "03914899e361944c4a687070f483f663f1dd40b3",
+          "path": "report/assets/condition-results.png",
+          "sha256": "a9114b28eb6d943a97a039f10fe9d92dc75d9615a3d40843c3dee290245f5cb6"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "report/swarm-report-draft.md",
+      "sha256": "7a05aa45041ed435a1e9e83850349ba130cea9404fbe49a6a305eca5f80a474a",
+      "bytes": 48428,
+      "kind": "adapted",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "03914899e361944c4a687070f483f663f1dd40b3",
+          "path": "report/swarm-report-draft.md",
+          "sha256": "1a2a7f8cade5346f4f78305095d4616c6020c2f53d8ac7986dbc3b3e77c393d2"
+        }
+      ],
+      "changes_and_purpose": "Public derivative of latest SWARM-021 manuscript. Remove author identity/private Discord quotation/reference, replace private repository/access guidance, omit3 historical command blocks and internal authorization prose. Scientific main body, abstract, all8 numerical tables and limitations retained. No public PDF/DOCX produced. Clarify excluded historical receipt availability and adapted protocol scope. Clarify public-snapshot test/format coverage. Publication update: owner-approved public scope, code-only MIT and retained scientific/submission limits.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "reports/swarm-007-summary.json",
+      "sha256": "95022e63aa0749a571b0bd6e9e81533c1b117ce8c33c949c0c560d1579c512d2",
+      "bytes": 76024,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "reports/swarm-007-summary.json",
+          "sha256": "95022e63aa0749a571b0bd6e9e81533c1b117ce8c33c949c0c560d1579c512d2"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "reports/swarm-009-summary.json",
+      "sha256": "386339ebcefa4698525a5bad672024c0c75266327e7c13966b81fa4dc9480277",
+      "bytes": 522261,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "reports/swarm-009-summary.json",
+          "sha256": "386339ebcefa4698525a5bad672024c0c75266327e7c13966b81fa4dc9480277"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "reports/swarm-016-object-summary.json",
+      "sha256": "315f164a83e6d13c6c2953bf6351f98c86777e8f4645922c2c7bcf941375011d",
+      "bytes": 552904,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "reports/swarm-016-object-summary.json",
+          "sha256": "315f164a83e6d13c6c2953bf6351f98c86777e8f4645922c2c7bcf941375011d"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "reports/swarm-016-repeat-summary.json",
+      "sha256": "75b2dce89020b6b2747776f0db2f2e60d9129a4fcf8b469b636b2df9941d9f45",
+      "bytes": 529448,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "reports/swarm-016-repeat-summary.json",
+          "sha256": "75b2dce89020b6b2747776f0db2f2e60d9129a4fcf8b469b636b2df9941d9f45"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "reports/swarm-017-summary.json",
+      "sha256": "ca762903f437a47b83b6729e2cc5d361f2cccd70bb557a74a15037cbd6f510b3",
+      "bytes": 711542,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "reports/swarm-017-summary.json",
+          "sha256": "ca762903f437a47b83b6729e2cc5d361f2cccd70bb557a74a15037cbd6f510b3"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "reports/swarm-017-timing-summary.json",
+      "sha256": "679dc26df34fff9e0f2c50efe920535ca6e0296a72649fd91ea95f619d206591",
+      "bytes": 8549,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "reports/swarm-017-timing-summary.json",
+          "sha256": "679dc26df34fff9e0f2c50efe920535ca6e0296a72649fd91ea95f619d206591"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "reports/swarm-018-summary.json",
+      "sha256": "156f4319b516ee042c22f7901d219d3bca65d36037dacf172719466b533d0d5d",
+      "bytes": 1440443,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "reports/swarm-018-summary.json",
+          "sha256": "156f4319b516ee042c22f7901d219d3bca65d36037dacf172719466b533d0d5d"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "reports/swarm-018-timing-summary.json",
+      "sha256": "cd400edb9e199c98eb499bf0314c0fa560225a6b0469e8e39fd48bc9855ae9d9",
+      "bytes": 119229,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "reports/swarm-018-timing-summary.json",
+          "sha256": "cd400edb9e199c98eb499bf0314c0fa560225a6b0469e8e39fd48bc9855ae9d9"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "Outside code-only MIT scope; no license grant made for this material"
+    },
+    {
+      "path": "src/record_object/__init__.py",
+      "sha256": "509db7bf8567f9562b2bdcfbeb4aeb5fb4a4b352f0dfbb857d89dee3937b2baa",
+      "bytes": 84,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_object/__init__.py",
+          "sha256": "509db7bf8567f9562b2bdcfbeb4aeb5fb4a4b352f0dfbb857d89dee3937b2baa"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_object/audit.py",
+      "sha256": "007a6d7cf177f81dc82a6f328fb0d2c560d2bbeadf8f2adc01e1f4f17960f501",
+      "bytes": 4925,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_object/audit.py",
+          "sha256": "007a6d7cf177f81dc82a6f328fb0d2c560d2bbeadf8f2adc01e1f4f17960f501"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_object/experiment.py",
+      "sha256": "78b1960b55c60ba7a6699c6f86b89cba15fa8d2bda4a136f82da764d14ecaabf",
+      "bytes": 4434,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_object/experiment.py",
+          "sha256": "78b1960b55c60ba7a6699c6f86b89cba15fa8d2bda4a136f82da764d14ecaabf"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_object/observe.py",
+      "sha256": "bc874cb809ac082fc11b4f8f858965d6ab4bd072894523e2c2e6030a2157b3e9",
+      "bytes": 1876,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_object/observe.py",
+          "sha256": "bc874cb809ac082fc11b4f8f858965d6ab4bd072894523e2c2e6030a2157b3e9"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_object/run.py",
+      "sha256": "ccb105b8da4c3b49e97725dd16e7a3f8e7554d6e1308752c54815b3dc2199ae0",
+      "bytes": 6162,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_object/run.py",
+          "sha256": "ccb105b8da4c3b49e97725dd16e7a3f8e7554d6e1308752c54815b3dc2199ae0"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_replication/__init__.py",
+      "sha256": "6ea093fd5480354f16fcfb89ef346f785690578a83317e1b61eacdf5b8b06857",
+      "bytes": 77,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_replication/__init__.py",
+          "sha256": "6ea093fd5480354f16fcfb89ef346f785690578a83317e1b61eacdf5b8b06857"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_replication/audit.py",
+      "sha256": "d93ef41cfb0d30a724d134a11eaaef559cc91db9c196e81c179b8ebbe65ae7dd",
+      "bytes": 14518,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_replication/audit.py",
+          "sha256": "d93ef41cfb0d30a724d134a11eaaef559cc91db9c196e81c179b8ebbe65ae7dd"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_replication/run.py",
+      "sha256": "d20b0c124e478a79984e975a453c0f0a6f5007c9d10ab7d54616cc9041b708de",
+      "bytes": 5093,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_replication/run.py",
+          "sha256": "d20b0c124e478a79984e975a453c0f0a6f5007c9d10ab7d54616cc9041b708de"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_reserved/__init__.py",
+      "sha256": "b7506ebcba29c46f9c4f2bc393297c4899b672fb760fe0c2f384db8e564dff2a",
+      "bytes": 77,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_reserved/__init__.py",
+          "sha256": "b7506ebcba29c46f9c4f2bc393297c4899b672fb760fe0c2f384db8e564dff2a"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_reserved/audit.py",
+      "sha256": "9d2a6eb7e108a7608aad60a8800d7838fc90331d2583fa598c13019df1e13afd",
+      "bytes": 8038,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_reserved/audit.py",
+          "sha256": "9d2a6eb7e108a7608aad60a8800d7838fc90331d2583fa598c13019df1e13afd"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_reserved/experiment.py",
+      "sha256": "6db350cf9553bd6199179214bd9da15e23865f6a9e54ad81b48117b90eecef62",
+      "bytes": 4646,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_reserved/experiment.py",
+          "sha256": "6db350cf9553bd6199179214bd9da15e23865f6a9e54ad81b48117b90eecef62"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_reserved/report.py",
+      "sha256": "93acf13fd5bfbd2d5661bbd430505f354adbfb21709f0737dbe1754fb780d552",
+      "bytes": 2468,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_reserved/report.py",
+          "sha256": "93acf13fd5bfbd2d5661bbd430505f354adbfb21709f0737dbe1754fb780d552"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_reserved/run.py",
+      "sha256": "1f198c60fb92c24029c982298e80950b878aab59d58e3b0e0e8f6204e7c9a74d",
+      "bytes": 5090,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_reserved/run.py",
+          "sha256": "1f198c60fb92c24029c982298e80950b878aab59d58e3b0e0e8f6204e7c9a74d"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_reserved/select.py",
+      "sha256": "53882ea2880633c6c68002ec1ab4a44d4f4529285b5e00df9d1b3566bc83fd72",
+      "bytes": 2489,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_reserved/select.py",
+          "sha256": "53882ea2880633c6c68002ec1ab4a44d4f4529285b5e00df9d1b3566bc83fd72"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_selection/__init__.py",
+      "sha256": "1bc0e8e0777b9ea96eed3b31d781cf493d1d071b7768b584fba1948402408497",
+      "bytes": 72,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_selection/__init__.py",
+          "sha256": "1bc0e8e0777b9ea96eed3b31d781cf493d1d071b7768b584fba1948402408497"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_selection/evaluate.py",
+      "sha256": "80cfbf97656a725899958a86026462741887719b34cbc6f2acc0ff3f05dbff53",
+      "bytes": 4643,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_selection/evaluate.py",
+          "sha256": "80cfbf97656a725899958a86026462741887719b34cbc6f2acc0ff3f05dbff53"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_selection/generate.py",
+      "sha256": "ede054d762d9c036c39dd03b5327d202b51dfbb2f1546dab7cc4ffd24fde2fad",
+      "bytes": 4533,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_selection/generate.py",
+          "sha256": "ede054d762d9c036c39dd03b5327d202b51dfbb2f1546dab7cc4ffd24fde2fad"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_selection/model.py",
+      "sha256": "0ebdd2928ebe6f8982483d034c5a2cfee633276599ea74540ad72bdb310dc9e1",
+      "bytes": 1334,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_selection/model.py",
+          "sha256": "0ebdd2928ebe6f8982483d034c5a2cfee633276599ea74540ad72bdb310dc9e1"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_selection/run.py",
+      "sha256": "4c2005c32f238ff798b09d623e7a5c5659c4bd5d5ed8f86d9b8a3a8f2f6f2f43",
+      "bytes": 8203,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_selection/run.py",
+          "sha256": "4c2005c32f238ff798b09d623e7a5c5659c4bd5d5ed8f86d9b8a3a8f2f6f2f43"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_selection/select.py",
+      "sha256": "acea861ee928b2979c3794e8edf7c6a5608225f1f497be000987a05ea64c5427",
+      "bytes": 5736,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_selection/select.py",
+          "sha256": "acea861ee928b2979c3794e8edf7c6a5608225f1f497be000987a05ea64c5427"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_topology/__init__.py",
+      "sha256": "621fafcde4b8f47b8fd00960ba516f4f1f92e159d514694ae76586ff95f59f7c",
+      "bytes": 84,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/__init__.py",
+          "sha256": "621fafcde4b8f47b8fd00960ba516f4f1f92e159d514694ae76586ff95f59f7c"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_topology/analysis.py",
+      "sha256": "eafa9f8364e957efdc33a79709e65ed4f382261457dbffba8605e5176200fdac",
+      "bytes": 5727,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/analysis.py",
+          "sha256": "eafa9f8364e957efdc33a79709e65ed4f382261457dbffba8605e5176200fdac"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_topology/audit.py",
+      "sha256": "a75bcdd80f93bf323054ca0b3a030ef8713c178cc56421e1f0a4b269fea59956",
+      "bytes": 18474,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/audit.py",
+          "sha256": "a75bcdd80f93bf323054ca0b3a030ef8713c178cc56421e1f0a4b269fea59956"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_topology/audit_reference.py",
+      "sha256": "a74eabd3aaba22b50c3f04a28045dfe642756cf68740509e73cca9fdc8affc5b",
+      "bytes": 12337,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/audit_reference.py",
+          "sha256": "a74eabd3aaba22b50c3f04a28045dfe642756cf68740509e73cca9fdc8affc5b"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_topology/checker.py",
+      "sha256": "4b0b19f42318ddd4c649af85f7130e7d6c69290e27000eb4fafb549f3d38c675",
+      "bytes": 3016,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/checker.py",
+          "sha256": "4b0b19f42318ddd4c649af85f7130e7d6c69290e27000eb4fafb549f3d38c675"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_topology/common.py",
+      "sha256": "4f559bb68cba5902d7c9339274ad01139ed89f3d2cea72657f35bc9345719ded",
+      "bytes": 1275,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/common.py",
+          "sha256": "4f559bb68cba5902d7c9339274ad01139ed89f3d2cea72657f35bc9345719ded"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_topology/diagnostics.py",
+      "sha256": "8ede451c0ba8263e92e55bb138c875b9f679efcca259426b10bf40fb39048c7b",
+      "bytes": 1671,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/diagnostics.py",
+          "sha256": "8ede451c0ba8263e92e55bb138c875b9f679efcca259426b10bf40fb39048c7b"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_topology/experiment.py",
+      "sha256": "4c842f4b3e362f93c5771fc751246153c0e4d56e445aa9fed7f8ed35428477fa",
+      "bytes": 5810,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/experiment.py",
+          "sha256": "4c842f4b3e362f93c5771fc751246153c0e4d56e445aa9fed7f8ed35428477fa"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_topology/generate.py",
+      "sha256": "1d45287f8fc8f5af0b34b4bc0608f59604fa2c2fdde1cb4060dba2e0be3410b0",
+      "bytes": 3570,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/generate.py",
+          "sha256": "1d45287f8fc8f5af0b34b4bc0608f59604fa2c2fdde1cb4060dba2e0be3410b0"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_topology/observe.py",
+      "sha256": "e23c2f8c1db7402943d17ed5c9f3ef258528c69b0e9d8f9afcf1b7f0ad8edbd2",
+      "bytes": 1620,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/observe.py",
+          "sha256": "e23c2f8c1db7402943d17ed5c9f3ef258528c69b0e9d8f9afcf1b7f0ad8edbd2"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_topology/reader.py",
+      "sha256": "d3ff0c03e11aef0ca93f92c9e6cb5c21b4910e59cf3303673902791f1724ea33",
+      "bytes": 3193,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/reader.py",
+          "sha256": "d3ff0c03e11aef0ca93f92c9e6cb5c21b4910e59cf3303673902791f1724ea33"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_topology/run.py",
+      "sha256": "12773abe5cd8b341fa113091edb388521416a75c35a03e483f198753b0452621",
+      "bytes": 8981,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/run.py",
+          "sha256": "12773abe5cd8b341fa113091edb388521416a75c35a03e483f198753b0452621"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_topology/score.py",
+      "sha256": "c1d9efbef1f6d29a6dd334407869fc019b8ab503199234c28d09118b8ab4de62",
+      "bytes": 2190,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/score.py",
+          "sha256": "c1d9efbef1f6d29a6dd334407869fc019b8ab503199234c28d09118b8ab4de62"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_topology/select.py",
+      "sha256": "6ae5724a9338f30fedcf18481991972ee4f3d3855d4347753c8142ed0867625c",
+      "bytes": 6250,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_topology/select.py",
+          "sha256": "6ae5724a9338f30fedcf18481991972ee4f3d3855d4347753c8142ed0867625c"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_validation/__init__.py",
+      "sha256": "c16b42e2401bb7068c4a64b8be4e1c5daedbe19eafecc41bccbf1c45c12b52c2",
+      "bytes": 76,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_validation/__init__.py",
+          "sha256": "c16b42e2401bb7068c4a64b8be4e1c5daedbe19eafecc41bccbf1c45c12b52c2"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_validation/observe.py",
+      "sha256": "bee7d2c13c51b40dec44e4daedb51a625718aa19bd66a1dbc3c10d580444cb2c",
+      "bytes": 3110,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_validation/observe.py",
+          "sha256": "bee7d2c13c51b40dec44e4daedb51a625718aa19bd66a1dbc3c10d580444cb2c"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_validation/report.py",
+      "sha256": "34e019d62606da8fe3979a9a303e28f39a125e7d01c0d65178a20d778f1fb059",
+      "bytes": 2951,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_validation/report.py",
+          "sha256": "34e019d62606da8fe3979a9a303e28f39a125e7d01c0d65178a20d778f1fb059"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_validation/run.py",
+      "sha256": "86affd101249184f1871f3a38a990125107b3f5778a62bb815fcd4d48e3e2edb",
+      "bytes": 9735,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_validation/run.py",
+          "sha256": "86affd101249184f1871f3a38a990125107b3f5778a62bb815fcd4d48e3e2edb"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "src/record_validation/select.py",
+      "sha256": "8cc036792aef5060b5abc93e4845c4c5e65c7bdf6b482a143d5deb52672019d2",
+      "bytes": 6246,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "src/record_validation/select.py",
+          "sha256": "8cc036792aef5060b5abc93e4845c4c5e65c7bdf6b482a143d5deb52672019d2"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "tests/test_record_object.py",
+      "sha256": "0849b52525da37e6aee4d95dd880f2aee194e641ae13dde38a687560770e262b",
+      "bytes": 7846,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "tests/test_record_object.py",
+          "sha256": "0849b52525da37e6aee4d95dd880f2aee194e641ae13dde38a687560770e262b"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "tests/test_record_replication.py",
+      "sha256": "4b42adbdf354cb78546c71352cb769f8315c6656410273570aacdb31b0f3a67c",
+      "bytes": 2319,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "tests/test_record_replication.py",
+          "sha256": "4b42adbdf354cb78546c71352cb769f8315c6656410273570aacdb31b0f3a67c"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "tests/test_record_reserved.py",
+      "sha256": "5653cbcb1a6b51001cfa5937b0fe993a4ed2276e9a5e4e94f33e418d3af2e51c",
+      "bytes": 7164,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "tests/test_record_reserved.py",
+          "sha256": "5653cbcb1a6b51001cfa5937b0fe993a4ed2276e9a5e4e94f33e418d3af2e51c"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "tests/test_record_selection.py",
+      "sha256": "b99f1374bb8549cfae6e1b87848d67f03ae7ddf880f4d8e388626500fb495965",
+      "bytes": 8973,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "tests/test_record_selection.py",
+          "sha256": "b99f1374bb8549cfae6e1b87848d67f03ae7ddf880f4d8e388626500fb495965"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "tests/test_record_topology.py",
+      "sha256": "27de4cd9f29801a6477f0b7c925c85099e57f20f3a2fc66d1deaade1c4a4f9f4",
+      "bytes": 16049,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "tests/test_record_topology.py",
+          "sha256": "27de4cd9f29801a6477f0b7c925c85099e57f20f3a2fc66d1deaade1c4a4f9f4"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    },
+    {
+      "path": "tests/test_record_validation.py",
+      "sha256": "323f40450524bb56995b80ec7b7e093e06d14b413e13db0a8825e2d89dd3ffaa",
+      "bytes": 11413,
+      "kind": "exact_copy",
+      "origins": [
+        {
+          "repository": "private origin; history not included",
+          "commit": "77857f14843e396ea363b18decdc9ff8e650266c",
+          "path": "tests/test_record_validation.py",
+          "sha256": "323f40450524bb56995b80ec7b7e093e06d14b413e13db0a8825e2d89dd3ffaa"
+        }
+      ],
+      "changes_and_purpose": "Exact selected source file; no content changes.",
+      "license_status": "MIT; see LICENSE for code-only scope"
+    }
+  ],
+  "excluded_categories": [
+    "original Git history",
+    "raw episodes/private ledgers/read traces",
+    "research identity keys, execution locks, attempt files and their private receipts",
+    "credentials, machine/private paths and internal coordination/instruction documents",
+    "third-party articles, recordings, transcripts and original templates",
+    "original report PDF/DOCX, vector figure PDF and embedded fonts",
+    "private-input-dependent document builders/verifiers and historical audit receipts"
+  ],
+  "verification_limits": "Source hashes identify supplied bytes; they do not establish accessible private ancestry, prior timestamps, preregistration, copyright ownership or independent recomputation of aggregates.",
+  "license_scope": {
+    "license": "MIT",
+    "included": [
+      "src/**/*.py",
+      "tests/test_record_*.py"
+    ],
+    "excluded": [
+      "manuscript",
+      "other documentation",
+      "configurations",
+      "fixtures",
+      "aggregate data",
+      "figures",
+      "provenance index",
+      "third-party material"
+    ]
+  },
+  "submission_approved": false,
+  "original_history_imported": false
+}

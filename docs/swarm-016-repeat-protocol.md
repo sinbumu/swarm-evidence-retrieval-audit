@@ -1,0 +1,26 @@
+# Fresh-family repetition protocol
+
+**Public snapshot adaptation.** This describes the historical study; it is not a new preregistration or an execution instruction. Private Git ancestry, original locks and raw evidence are absent. Source commit/file hashes in [provenance](../provenance.json) identify the supplied bytes but do not independently establish when the design was fixed. See [evidence limits](evidence-availability.md). Operational coordination text is omitted; the original remains preserved privately.
+
+## Question and fixed design
+
+Does the same generator/condition grid reproduce the earlier pattern on fresh independent seed families, and how do descriptive uncertainty intervals change? Fixed evaluation **N=192 families, seeds 3001–3192**; development **301–306**. These do not overlap any SWARM-007/009 development or evaluation seeds. N is chosen before seeing results: eight times the original 24 families, within a bounded CPU-only design. No sequential testing or sample-size adjustment is permitted.
+
+`configs/swarm-016-repeat.json` is exactly SWARM-009 except protocol and seed lists. Preserve all nine selectors (random, recent, object ID, resource/time, reference join, relation graph, equivalent relation join, adaptive pointer, object/relation mix), the private true-record diagnostic, both separately generated backgrounds (8/24), and all 12 observation conditions. Each family supplies 24 paired views, for 4,608 evaluation views and 46,080 method/diagnostic rows. Four 512-byte payload reads include the anchor; catalog/query bytes, repeated indexing, and dependent read rounds are charged as before. Fault streams, truth construction, selectors and checker are unchanged. The generator's binary object stability and effectively collision-free object IDs remain assumptions in this stage.
+
+## Outcomes and analysis
+
+Primary metric: complete retrieval of all four true records. Primary paired contrasts: adaptive pointer minus graph, mix minus graph, and graph versus equivalent join. The saved summary stores the first two in the reverse graph-minus-baseline direction, so reported signs must be converted explicitly. Overall each family contributes one mean across its 24 views with equal fixed grid weight. Do not treat views or method rows as independent samples.
+
+Report all method counts/rates and paired method differences for each background/condition as well as overall. Use the unchanged 2,000-resample family bootstrap: sorted samples at zero-based indices 49 and 1949 form descriptive 95% percentile intervals. For a fixed background/condition each seed supplies one paired difference; for overall comparisons resample the family mean difference. Also retain all 11 prespecified fault-condition contrasts for completeness and correct-verdict metrics. These are descriptive simulator-conditional intervals with no multiplicity correction, not confirmatory population inference. Degenerate intervals are reported as such.
+
+Secondary diagnostics: correct/unknown/wrong verdicts, actual true-chain pointer damage versus fault assignment, graph/join selected-ID identity, exact-pointer retrieval, object stability, graph-relative mix/pointer losses, read rounds, operation/input costs and local timing. Compare the old 24-family and new 192-family rates/interval widths side by side, without pooling or claiming the original exploratory findings were preregistered. No source-paper result is combined with these denominators.
+
+## Execution and stopping rules
+
+Commit this protocol and config before evaluation. Add a separate wrapper that calls the unchanged SWARM-009 execution implementation, validates exact condition/method equivalence and seed disjointness, freezes source/config/test hashes and a snapshot of this protocol, and refuses overwrite or changed inputs. Run the related complete test suite and six development families before the fixed evaluation. Development may uncover bugs; any repair must receive a new documented commit/lock before evaluation. It cannot change the fixed N, methods, or grid to favor a result.
+
+Use new Git-excluded `runs/SWARM-016/repeat-*` directories. Run evaluation once and one identical-setting reproduction in another directory solely for deterministic identity checks (not independent evidence). Compare config, latent ledgers, observed episodes, results and summary byte-for-byte; timing/manifests are not identity targets. Preserve all failures. A crash or integrity defect stops analysis; a retry uses a new path with the exact reason and unchanged seeds recorded. Never drop failed families or resume only favorable cases. If a post-evaluation bug changes scientific outputs, mark the run invalid and stop for a scope decision rather than silently replacing it.
+
+Independent saved-artifact audit must reconstruct truth from latent parent links, recompute verdicts/metrics from selected observed payloads, verify public visibility/read traces/budgets/costs, recalculate groups and paired intervals without calling the production scorer/summary, and match manifests and reproduction hashes. Do not expose ground truth to selectors. Check old protected hashes before and after execution. Record results and checks before designing stage 2.
+

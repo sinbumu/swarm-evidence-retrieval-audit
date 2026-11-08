@@ -1,0 +1,2830 @@
+{
+  "groups": [
+    {
+      "background": 8,
+      "completed": 5,
+      "completion_rate": 0.20833333333333334,
+      "condition": "explicit_complete",
+      "edge_coverage": 0.2916666666666667,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 0,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "random",
+      "normal": {
+        "episodes": 7,
+        "unknown": 6,
+        "wrong": 0
+      },
+      "record_recall": 0.5416666666666666,
+      "risk": {
+        "episodes": 17,
+        "miss": 13,
+        "unknown": 13,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.8333333333333333
+    },
+    {
+      "background": 8,
+      "completed": 8,
+      "completion_rate": 0.3333333333333333,
+      "condition": "explicit_complete",
+      "edge_coverage": 0.625,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 18.208333333333332,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "recent",
+      "normal": {
+        "episodes": 7,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "record_recall": 0.71875,
+      "risk": {
+        "episodes": 17,
+        "miss": 11,
+        "unknown": 11,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.125
+    },
+    {
+      "background": 8,
+      "completed": 13,
+      "completion_rate": 0.5416666666666666,
+      "condition": "explicit_complete",
+      "edge_coverage": 0.736111111111111,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 18.208333333333332,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "object_id",
+      "normal": {
+        "episodes": 7,
+        "unknown": 2,
+        "wrong": 0
+      },
+      "record_recall": 0.8020833333333334,
+      "risk": {
+        "episodes": 17,
+        "miss": 9,
+        "unknown": 9,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0.7916666666666666
+    },
+    {
+      "background": 8,
+      "completed": 8,
+      "completion_rate": 0.3333333333333333,
+      "condition": "explicit_complete",
+      "edge_coverage": 0.6666666666666666,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 18.208333333333332,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "resource_time",
+      "normal": {
+        "episodes": 7,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "record_recall": 0.75,
+      "risk": {
+        "episodes": 17,
+        "miss": 11,
+        "unknown": 11,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1
+    },
+    {
+      "background": 8,
+      "completed": 24,
+      "completion_rate": 1,
+      "condition": "explicit_complete",
+      "edge_coverage": 1.0,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 3,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 3,
+        "sort_items": 0,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "reference_join",
+      "normal": {
+        "episodes": 7,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "record_recall": 1.0,
+      "risk": {
+        "episodes": 17,
+        "miss": 0,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0
+    },
+    {
+      "background": 8,
+      "completed": 24,
+      "completion_rate": 1,
+      "condition": "explicit_complete",
+      "edge_coverage": 1.0,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 482.2083333333333,
+        "edge_visits": 4.666666666666667,
+        "graph_edges": 25.666666666666668,
+        "graph_serialized_bytes": 981.375,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 0,
+        "sort_items": 0,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "relation_graph",
+      "normal": {
+        "episodes": 7,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "record_recall": 1.0,
+      "risk": {
+        "episodes": 17,
+        "miss": 0,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0
+    },
+    {
+      "background": 8,
+      "completed": 24,
+      "completion_rate": 1,
+      "condition": "explicit_complete",
+      "edge_coverage": 1.0,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 4.666666666666667,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 57.625,
+        "sort_items": 0,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "relation_join",
+      "normal": {
+        "episodes": 7,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "record_recall": 1.0,
+      "risk": {
+        "episodes": 17,
+        "miss": 0,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0
+    },
+    {
+      "background": 8,
+      "completed": 24,
+      "completion_rate": 1,
+      "condition": "explicit_complete",
+      "edge_coverage": 1.0,
+      "episodes": 24,
+      "method": "full_evidence",
+      "normal": {
+        "episodes": 7,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "record_recall": 1.0,
+      "risk": {
+        "episodes": 17,
+        "miss": 0,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0
+    },
+    {
+      "background": 8,
+      "completed": 5,
+      "completion_rate": 0.20833333333333334,
+      "condition": "explicit_degraded",
+      "edge_coverage": 0.2916666666666667,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 0,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "random",
+      "normal": {
+        "episodes": 7,
+        "unknown": 6,
+        "wrong": 0
+      },
+      "record_recall": 0.5416666666666666,
+      "risk": {
+        "episodes": 17,
+        "miss": 13,
+        "unknown": 13,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.8333333333333333
+    },
+    {
+      "background": 8,
+      "completed": 8,
+      "completion_rate": 0.3333333333333333,
+      "condition": "explicit_degraded",
+      "edge_coverage": 0.625,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 18.208333333333332,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "recent",
+      "normal": {
+        "episodes": 7,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "record_recall": 0.71875,
+      "risk": {
+        "episodes": 17,
+        "miss": 11,
+        "unknown": 11,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.125
+    },
+    {
+      "background": 8,
+      "completed": 13,
+      "completion_rate": 0.5416666666666666,
+      "condition": "explicit_degraded",
+      "edge_coverage": 0.736111111111111,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 18.208333333333332,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "object_id",
+      "normal": {
+        "episodes": 7,
+        "unknown": 2,
+        "wrong": 0
+      },
+      "record_recall": 0.8020833333333334,
+      "risk": {
+        "episodes": 17,
+        "miss": 9,
+        "unknown": 9,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0.7916666666666666
+    },
+    {
+      "background": 8,
+      "completed": 8,
+      "completion_rate": 0.3333333333333333,
+      "condition": "explicit_degraded",
+      "edge_coverage": 0.6388888888888888,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 18.208333333333332,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "resource_time",
+      "normal": {
+        "episodes": 7,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "record_recall": 0.7291666666666666,
+      "risk": {
+        "episodes": 17,
+        "miss": 11,
+        "unknown": 11,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.0833333333333333
+    },
+    {
+      "background": 8,
+      "completed": 7,
+      "completion_rate": 0.2916666666666667,
+      "condition": "explicit_degraded",
+      "edge_coverage": 0.611111111111111,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 1.5416666666666667,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 12.75,
+        "sort_items": 10.75,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "reference_join",
+      "normal": {
+        "episodes": 7,
+        "unknown": 6,
+        "wrong": 0
+      },
+      "record_recall": 0.7083333333333334,
+      "risk": {
+        "episodes": 17,
+        "miss": 11,
+        "unknown": 11,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.1666666666666667
+    },
+    {
+      "background": 8,
+      "completed": 9,
+      "completion_rate": 0.375,
+      "condition": "explicit_degraded",
+      "edge_coverage": 0.6388888888888888,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 482.2083333333333,
+        "edge_visits": 3.0833333333333335,
+        "graph_edges": 20.125,
+        "graph_serialized_bytes": 858.8333333333334,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 3.7916666666666665,
+        "sort_items": 3.4583333333333335,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "relation_graph",
+      "normal": {
+        "episodes": 7,
+        "unknown": 6,
+        "wrong": 0
+      },
+      "record_recall": 0.7291666666666666,
+      "risk": {
+        "episodes": 17,
+        "miss": 9,
+        "unknown": 9,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.0833333333333333
+    },
+    {
+      "background": 8,
+      "completed": 9,
+      "completion_rate": 0.375,
+      "condition": "explicit_degraded",
+      "edge_coverage": 0.6388888888888888,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 3.0833333333333335,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 58.5,
+        "sort_items": 3.4583333333333335,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "relation_join",
+      "normal": {
+        "episodes": 7,
+        "unknown": 6,
+        "wrong": 0
+      },
+      "record_recall": 0.7291666666666666,
+      "risk": {
+        "episodes": 17,
+        "miss": 9,
+        "unknown": 9,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.0833333333333333
+    },
+    {
+      "background": 8,
+      "completed": 24,
+      "completion_rate": 1,
+      "condition": "explicit_degraded",
+      "edge_coverage": 1.0,
+      "episodes": 24,
+      "method": "full_evidence",
+      "normal": {
+        "episodes": 7,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "record_recall": 1.0,
+      "risk": {
+        "episodes": 17,
+        "miss": 0,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0
+    },
+    {
+      "background": 8,
+      "completed": 5,
+      "completion_rate": 0.20833333333333334,
+      "condition": "implicit_only",
+      "edge_coverage": 0.2916666666666667,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 0,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "random",
+      "normal": {
+        "episodes": 7,
+        "unknown": 6,
+        "wrong": 0
+      },
+      "record_recall": 0.5416666666666666,
+      "risk": {
+        "episodes": 17,
+        "miss": 13,
+        "unknown": 13,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.8333333333333333
+    },
+    {
+      "background": 8,
+      "completed": 8,
+      "completion_rate": 0.3333333333333333,
+      "condition": "implicit_only",
+      "edge_coverage": 0.625,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 18.208333333333332,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "recent",
+      "normal": {
+        "episodes": 7,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "record_recall": 0.71875,
+      "risk": {
+        "episodes": 17,
+        "miss": 11,
+        "unknown": 11,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.125
+    },
+    {
+      "background": 8,
+      "completed": 13,
+      "completion_rate": 0.5416666666666666,
+      "condition": "implicit_only",
+      "edge_coverage": 0.736111111111111,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 18.208333333333332,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "object_id",
+      "normal": {
+        "episodes": 7,
+        "unknown": 2,
+        "wrong": 0
+      },
+      "record_recall": 0.8020833333333334,
+      "risk": {
+        "episodes": 17,
+        "miss": 9,
+        "unknown": 9,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0.7916666666666666
+    },
+    {
+      "background": 8,
+      "completed": 8,
+      "completion_rate": 0.3333333333333333,
+      "condition": "implicit_only",
+      "edge_coverage": 0.6666666666666666,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 18.208333333333332,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "resource_time",
+      "normal": {
+        "episodes": 7,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "record_recall": 0.75,
+      "risk": {
+        "episodes": 17,
+        "miss": 11,
+        "unknown": 11,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1
+    },
+    {
+      "background": 8,
+      "completed": 8,
+      "completion_rate": 0.3333333333333333,
+      "condition": "implicit_only",
+      "edge_coverage": 0.625,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 18.208333333333332,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "reference_join",
+      "normal": {
+        "episodes": 7,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "record_recall": 0.71875,
+      "risk": {
+        "episodes": 17,
+        "miss": 11,
+        "unknown": 11,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.125
+    },
+    {
+      "background": 8,
+      "completed": 16,
+      "completion_rate": 0.6666666666666666,
+      "condition": "implicit_only",
+      "edge_coverage": 0.8472222222222222,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 482.2083333333333,
+        "edge_visits": 4.833333333333333,
+        "graph_edges": 25.666666666666668,
+        "graph_serialized_bytes": 1024.25,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 0,
+        "sort_items": 0,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "relation_graph",
+      "normal": {
+        "episodes": 7,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "record_recall": 0.8854166666666666,
+      "risk": {
+        "episodes": 17,
+        "miss": 3,
+        "unknown": 3,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0.4583333333333333
+    },
+    {
+      "background": 8,
+      "completed": 16,
+      "completion_rate": 0.6666666666666666,
+      "condition": "implicit_only",
+      "edge_coverage": 0.8472222222222222,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 4.833333333333333,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 57.625,
+        "sort_items": 0,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "relation_join",
+      "normal": {
+        "episodes": 7,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "record_recall": 0.8854166666666666,
+      "risk": {
+        "episodes": 17,
+        "miss": 3,
+        "unknown": 3,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0.4583333333333333
+    },
+    {
+      "background": 8,
+      "completed": 24,
+      "completion_rate": 1,
+      "condition": "implicit_only",
+      "edge_coverage": 1.0,
+      "episodes": 24,
+      "method": "full_evidence",
+      "normal": {
+        "episodes": 7,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "record_recall": 1.0,
+      "risk": {
+        "episodes": 17,
+        "miss": 0,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0
+    },
+    {
+      "background": 8,
+      "completed": 5,
+      "completion_rate": 0.20833333333333334,
+      "condition": "implicit_degraded",
+      "edge_coverage": 0.2916666666666667,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 0,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "random",
+      "normal": {
+        "episodes": 7,
+        "unknown": 6,
+        "wrong": 0
+      },
+      "record_recall": 0.5416666666666666,
+      "risk": {
+        "episodes": 17,
+        "miss": 13,
+        "unknown": 13,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.8333333333333333
+    },
+    {
+      "background": 8,
+      "completed": 8,
+      "completion_rate": 0.3333333333333333,
+      "condition": "implicit_degraded",
+      "edge_coverage": 0.625,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 18.208333333333332,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "recent",
+      "normal": {
+        "episodes": 7,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "record_recall": 0.71875,
+      "risk": {
+        "episodes": 17,
+        "miss": 11,
+        "unknown": 11,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.125
+    },
+    {
+      "background": 8,
+      "completed": 13,
+      "completion_rate": 0.5416666666666666,
+      "condition": "implicit_degraded",
+      "edge_coverage": 0.736111111111111,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 18.208333333333332,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "object_id",
+      "normal": {
+        "episodes": 7,
+        "unknown": 2,
+        "wrong": 0
+      },
+      "record_recall": 0.8020833333333334,
+      "risk": {
+        "episodes": 17,
+        "miss": 9,
+        "unknown": 9,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0.7916666666666666
+    },
+    {
+      "background": 8,
+      "completed": 8,
+      "completion_rate": 0.3333333333333333,
+      "condition": "implicit_degraded",
+      "edge_coverage": 0.6666666666666666,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 18.208333333333332,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "resource_time",
+      "normal": {
+        "episodes": 7,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "record_recall": 0.75,
+      "risk": {
+        "episodes": 17,
+        "miss": 11,
+        "unknown": 11,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1
+    },
+    {
+      "background": 8,
+      "completed": 8,
+      "completion_rate": 0.3333333333333333,
+      "condition": "implicit_degraded",
+      "edge_coverage": 0.625,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 18.208333333333332,
+        "sort_items": 18.208333333333332,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "reference_join",
+      "normal": {
+        "episodes": 7,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "record_recall": 0.71875,
+      "risk": {
+        "episodes": 17,
+        "miss": 11,
+        "unknown": 11,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.125
+    },
+    {
+      "background": 8,
+      "completed": 12,
+      "completion_rate": 0.5,
+      "condition": "implicit_degraded",
+      "edge_coverage": 0.7777777777777778,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 482.2083333333333,
+        "edge_visits": 2.7083333333333335,
+        "graph_edges": 13.916666666666666,
+        "graph_serialized_bytes": 748,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 8.375,
+        "sort_items": 8,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "relation_graph",
+      "normal": {
+        "episodes": 7,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "record_recall": 0.8333333333333334,
+      "risk": {
+        "episodes": 17,
+        "miss": 7,
+        "unknown": 7,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0.6666666666666666
+    },
+    {
+      "background": 8,
+      "completed": 12,
+      "completion_rate": 0.5,
+      "condition": "implicit_degraded",
+      "edge_coverage": 0.7777777777777778,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 2.7083333333333335,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 19.208333333333332,
+        "metadata_bytes": 9834.666666666666,
+        "metadata_records": 19.208333333333332,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 53.166666666666664,
+        "sort_items": 8,
+        "total_input_bytes": 12394.666666666666
+      },
+      "method": "relation_join",
+      "normal": {
+        "episodes": 7,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "record_recall": 0.8333333333333334,
+      "risk": {
+        "episodes": 17,
+        "miss": 7,
+        "unknown": 7,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0.6666666666666666
+    },
+    {
+      "background": 8,
+      "completed": 24,
+      "completion_rate": 1,
+      "condition": "implicit_degraded",
+      "edge_coverage": 1.0,
+      "episodes": 24,
+      "method": "full_evidence",
+      "normal": {
+        "episodes": 7,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "record_recall": 1.0,
+      "risk": {
+        "episodes": 17,
+        "miss": 0,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "explicit_complete",
+      "edge_coverage": 0.08333333333333333,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 0,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "random",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.3541666666666667,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 2.5833333333333335
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "explicit_complete",
+      "edge_coverage": 0.25,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 49.583333333333336,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "recent",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.4375,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 2.25
+    },
+    {
+      "background": 24,
+      "completed": 13,
+      "completion_rate": 0.5416666666666666,
+      "condition": "explicit_complete",
+      "edge_coverage": 0.6805555555555556,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 49.583333333333336,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "object_id",
+      "normal": {
+        "episodes": 14,
+        "unknown": 6,
+        "wrong": 0
+      },
+      "record_recall": 0.7604166666666666,
+      "risk": {
+        "episodes": 10,
+        "miss": 5,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0.9583333333333334
+    },
+    {
+      "background": 24,
+      "completed": 3,
+      "completion_rate": 0.125,
+      "condition": "explicit_complete",
+      "edge_coverage": 0.4722222222222222,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 49.583333333333336,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "resource_time",
+      "normal": {
+        "episodes": 14,
+        "unknown": 13,
+        "wrong": 0
+      },
+      "record_recall": 0.6041666666666666,
+      "risk": {
+        "episodes": 10,
+        "miss": 8,
+        "unknown": 8,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.5833333333333333
+    },
+    {
+      "background": 24,
+      "completed": 24,
+      "completion_rate": 1,
+      "condition": "explicit_complete",
+      "edge_coverage": 1.0,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 3,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 3,
+        "sort_items": 0,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "reference_join",
+      "normal": {
+        "episodes": 14,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "record_recall": 1.0,
+      "risk": {
+        "episodes": 10,
+        "miss": 0,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0
+    },
+    {
+      "background": 24,
+      "completed": 24,
+      "completion_rate": 1,
+      "condition": "explicit_complete",
+      "edge_coverage": 1.0,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 3398.5,
+        "edge_visits": 8.333333333333334,
+        "graph_edges": 124.41666666666667,
+        "graph_serialized_bytes": 3945.3333333333335,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 0,
+        "sort_items": 0,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "relation_graph",
+      "normal": {
+        "episodes": 14,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "record_recall": 1.0,
+      "risk": {
+        "episodes": 10,
+        "miss": 0,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0
+    },
+    {
+      "background": 24,
+      "completed": 24,
+      "completion_rate": 1,
+      "condition": "explicit_complete",
+      "edge_coverage": 1.0,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 8.333333333333334,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 151.75,
+        "sort_items": 0,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "relation_join",
+      "normal": {
+        "episodes": 14,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "record_recall": 1.0,
+      "risk": {
+        "episodes": 10,
+        "miss": 0,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0
+    },
+    {
+      "background": 24,
+      "completed": 24,
+      "completion_rate": 1,
+      "condition": "explicit_complete",
+      "edge_coverage": 1.0,
+      "episodes": 24,
+      "method": "full_evidence",
+      "normal": {
+        "episodes": 14,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "record_recall": 1.0,
+      "risk": {
+        "episodes": 10,
+        "miss": 0,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "explicit_degraded",
+      "edge_coverage": 0.08333333333333333,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 0,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "random",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.3541666666666667,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 2.5833333333333335
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "explicit_degraded",
+      "edge_coverage": 0.25,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 49.583333333333336,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "recent",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.4375,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 2.25
+    },
+    {
+      "background": 24,
+      "completed": 13,
+      "completion_rate": 0.5416666666666666,
+      "condition": "explicit_degraded",
+      "edge_coverage": 0.6805555555555556,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 49.583333333333336,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "object_id",
+      "normal": {
+        "episodes": 14,
+        "unknown": 6,
+        "wrong": 0
+      },
+      "record_recall": 0.7604166666666666,
+      "risk": {
+        "episodes": 10,
+        "miss": 5,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0.9583333333333334
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "explicit_degraded",
+      "edge_coverage": 0.3333333333333333,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 49.583333333333336,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "resource_time",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.5,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 2
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "explicit_degraded",
+      "edge_coverage": 0.3333333333333333,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 1.0833333333333333,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 39.791666666666664,
+        "sort_items": 38.375,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "reference_join",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.5,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 2
+    },
+    {
+      "background": 24,
+      "completed": 1,
+      "completion_rate": 0.041666666666666664,
+      "condition": "explicit_degraded",
+      "edge_coverage": 0.41666666666666663,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 3398.5,
+        "edge_visits": 4.416666666666667,
+        "graph_edges": 85.45833333333333,
+        "graph_serialized_bytes": 3036.5,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 19.791666666666668,
+        "sort_items": 19.583333333333332,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "relation_graph",
+      "normal": {
+        "episodes": 14,
+        "unknown": 13,
+        "wrong": 0
+      },
+      "record_recall": 0.5729166666666666,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.7083333333333333
+    },
+    {
+      "background": 24,
+      "completed": 1,
+      "completion_rate": 0.041666666666666664,
+      "condition": "explicit_degraded",
+      "edge_coverage": 0.41666666666666663,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 4.416666666666667,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 141.41666666666666,
+        "sort_items": 19.583333333333332,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "relation_join",
+      "normal": {
+        "episodes": 14,
+        "unknown": 13,
+        "wrong": 0
+      },
+      "record_recall": 0.5729166666666666,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.7083333333333333
+    },
+    {
+      "background": 24,
+      "completed": 24,
+      "completion_rate": 1,
+      "condition": "explicit_degraded",
+      "edge_coverage": 1.0,
+      "episodes": 24,
+      "method": "full_evidence",
+      "normal": {
+        "episodes": 14,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "record_recall": 1.0,
+      "risk": {
+        "episodes": 10,
+        "miss": 0,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "implicit_only",
+      "edge_coverage": 0.08333333333333333,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 0,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "random",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.3541666666666667,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 2.5833333333333335
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "implicit_only",
+      "edge_coverage": 0.25,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 49.583333333333336,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "recent",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.4375,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 2.25
+    },
+    {
+      "background": 24,
+      "completed": 13,
+      "completion_rate": 0.5416666666666666,
+      "condition": "implicit_only",
+      "edge_coverage": 0.6805555555555556,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 49.583333333333336,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "object_id",
+      "normal": {
+        "episodes": 14,
+        "unknown": 6,
+        "wrong": 0
+      },
+      "record_recall": 0.7604166666666666,
+      "risk": {
+        "episodes": 10,
+        "miss": 5,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0.9583333333333334
+    },
+    {
+      "background": 24,
+      "completed": 3,
+      "completion_rate": 0.125,
+      "condition": "implicit_only",
+      "edge_coverage": 0.4722222222222222,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 49.583333333333336,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "resource_time",
+      "normal": {
+        "episodes": 14,
+        "unknown": 13,
+        "wrong": 0
+      },
+      "record_recall": 0.6041666666666666,
+      "risk": {
+        "episodes": 10,
+        "miss": 8,
+        "unknown": 8,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.5833333333333333
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "implicit_only",
+      "edge_coverage": 0.25,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 49.583333333333336,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "reference_join",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.4375,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 2.25
+    },
+    {
+      "background": 24,
+      "completed": 8,
+      "completion_rate": 0.3333333333333333,
+      "condition": "implicit_only",
+      "edge_coverage": 0.6388888888888888,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 3398.5,
+        "edge_visits": 8.625,
+        "graph_edges": 124.41666666666667,
+        "graph_serialized_bytes": 4056.2083333333335,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 0,
+        "sort_items": 0,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "relation_graph",
+      "normal": {
+        "episodes": 14,
+        "unknown": 11,
+        "wrong": 0
+      },
+      "record_recall": 0.7291666666666666,
+      "risk": {
+        "episodes": 10,
+        "miss": 5,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.0833333333333333
+    },
+    {
+      "background": 24,
+      "completed": 8,
+      "completion_rate": 0.3333333333333333,
+      "condition": "implicit_only",
+      "edge_coverage": 0.6388888888888888,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 8.625,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 151.75,
+        "sort_items": 0,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "relation_join",
+      "normal": {
+        "episodes": 14,
+        "unknown": 11,
+        "wrong": 0
+      },
+      "record_recall": 0.7291666666666666,
+      "risk": {
+        "episodes": 10,
+        "miss": 5,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.0833333333333333
+    },
+    {
+      "background": 24,
+      "completed": 24,
+      "completion_rate": 1,
+      "condition": "implicit_only",
+      "edge_coverage": 1.0,
+      "episodes": 24,
+      "method": "full_evidence",
+      "normal": {
+        "episodes": 14,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "record_recall": 1.0,
+      "risk": {
+        "episodes": 10,
+        "miss": 0,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "implicit_degraded",
+      "edge_coverage": 0.08333333333333333,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 0,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "random",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.3541666666666667,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 2.5833333333333335
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "implicit_degraded",
+      "edge_coverage": 0.25,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 49.583333333333336,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "recent",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.4375,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 2.25
+    },
+    {
+      "background": 24,
+      "completed": 13,
+      "completion_rate": 0.5416666666666666,
+      "condition": "implicit_degraded",
+      "edge_coverage": 0.6805555555555556,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 49.583333333333336,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "object_id",
+      "normal": {
+        "episodes": 14,
+        "unknown": 6,
+        "wrong": 0
+      },
+      "record_recall": 0.7604166666666666,
+      "risk": {
+        "episodes": 10,
+        "miss": 5,
+        "unknown": 5,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0.9583333333333334
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "implicit_degraded",
+      "edge_coverage": 0.3194444444444444,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 49.583333333333336,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "resource_time",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.5,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 2
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "implicit_degraded",
+      "edge_coverage": 0.25,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 0,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 49.583333333333336,
+        "sort_items": 49.583333333333336,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "reference_join",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.4375,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 2.25
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "implicit_degraded",
+      "edge_coverage": 0.3611111111111111,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 3398.5,
+        "edge_visits": 3.5416666666666665,
+        "graph_edges": 61.458333333333336,
+        "graph_serialized_bytes": 2559.6666666666665,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 32.583333333333336,
+        "sort_items": 32.041666666666664,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "relation_graph",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.5520833333333334,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.7916666666666667
+    },
+    {
+      "background": 24,
+      "completed": 0,
+      "completion_rate": 0,
+      "condition": "implicit_degraded",
+      "edge_coverage": 0.3611111111111111,
+      "episodes": 24,
+      "mean_costs": {
+        "build_candidate_checks": 0,
+        "edge_visits": 3.5416666666666665,
+        "graph_edges": 0,
+        "graph_serialized_bytes": 0,
+        "index_insertions": 50.583333333333336,
+        "metadata_bytes": 25898.666666666668,
+        "metadata_records": 50.583333333333336,
+        "payload_bytes": 2048,
+        "payload_records": 4,
+        "query_bytes": 512,
+        "query_candidate_checks": 145.20833333333334,
+        "sort_items": 32.041666666666664,
+        "total_input_bytes": 28458.666666666668
+      },
+      "method": "relation_join",
+      "normal": {
+        "episodes": 14,
+        "unknown": 14,
+        "wrong": 0
+      },
+      "record_recall": 0.5520833333333334,
+      "risk": {
+        "episodes": 10,
+        "miss": 10,
+        "unknown": 10,
+        "wrong": 0
+      },
+      "unnecessary_reads": 1.7916666666666667
+    },
+    {
+      "background": 24,
+      "completed": 24,
+      "completion_rate": 1,
+      "condition": "implicit_degraded",
+      "edge_coverage": 1.0,
+      "episodes": 24,
+      "method": "full_evidence",
+      "normal": {
+        "episodes": 14,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "record_recall": 1.0,
+      "risk": {
+        "episodes": 10,
+        "miss": 0,
+        "unknown": 0,
+        "wrong": 0
+      },
+      "unnecessary_reads": 0
+    }
+  ],
+  "paired_completion_differences": [
+    {
+      "background": 8,
+      "baseline": "random",
+      "bootstrap_95_percentile": [
+        0.625,
+        0.9583333333333334
+      ],
+      "condition": "explicit_complete",
+      "graph_minus_baseline": 0.7916666666666666,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "recent",
+      "bootstrap_95_percentile": [
+        0.4583333333333333,
+        0.8333333333333334
+      ],
+      "condition": "explicit_complete",
+      "graph_minus_baseline": 0.6666666666666666,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "object_id",
+      "bootstrap_95_percentile": [
+        0.25,
+        0.6666666666666666
+      ],
+      "condition": "explicit_complete",
+      "graph_minus_baseline": 0.4583333333333333,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "resource_time",
+      "bootstrap_95_percentile": [
+        0.4583333333333333,
+        0.8333333333333334
+      ],
+      "condition": "explicit_complete",
+      "graph_minus_baseline": 0.6666666666666666,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "reference_join",
+      "bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "condition": "explicit_complete",
+      "graph_minus_baseline": 0,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "relation_join",
+      "bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "condition": "explicit_complete",
+      "graph_minus_baseline": 0,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "random",
+      "bootstrap_95_percentile": [
+        0.041666666666666664,
+        0.3333333333333333
+      ],
+      "condition": "explicit_degraded",
+      "graph_minus_baseline": 0.16666666666666666,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "recent",
+      "bootstrap_95_percentile": [
+        -0.125,
+        0.20833333333333334
+      ],
+      "condition": "explicit_degraded",
+      "graph_minus_baseline": 0.041666666666666664,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "object_id",
+      "bootstrap_95_percentile": [
+        -0.4166666666666667,
+        0.08333333333333333
+      ],
+      "condition": "explicit_degraded",
+      "graph_minus_baseline": -0.16666666666666666,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "resource_time",
+      "bootstrap_95_percentile": [
+        -0.125,
+        0.20833333333333334
+      ],
+      "condition": "explicit_degraded",
+      "graph_minus_baseline": 0.041666666666666664,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "reference_join",
+      "bootstrap_95_percentile": [
+        0,
+        0.20833333333333334
+      ],
+      "condition": "explicit_degraded",
+      "graph_minus_baseline": 0.08333333333333333,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "relation_join",
+      "bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "condition": "explicit_degraded",
+      "graph_minus_baseline": 0,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "random",
+      "bootstrap_95_percentile": [
+        0.25,
+        0.6666666666666666
+      ],
+      "condition": "implicit_only",
+      "graph_minus_baseline": 0.4583333333333333,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "recent",
+      "bootstrap_95_percentile": [
+        0.125,
+        0.5416666666666666
+      ],
+      "condition": "implicit_only",
+      "graph_minus_baseline": 0.3333333333333333,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "object_id",
+      "bootstrap_95_percentile": [
+        -0.125,
+        0.375
+      ],
+      "condition": "implicit_only",
+      "graph_minus_baseline": 0.125,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "resource_time",
+      "bootstrap_95_percentile": [
+        0.16666666666666666,
+        0.5416666666666666
+      ],
+      "condition": "implicit_only",
+      "graph_minus_baseline": 0.3333333333333333,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "reference_join",
+      "bootstrap_95_percentile": [
+        0.16666666666666666,
+        0.5416666666666666
+      ],
+      "condition": "implicit_only",
+      "graph_minus_baseline": 0.3333333333333333,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "relation_join",
+      "bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "condition": "implicit_only",
+      "graph_minus_baseline": 0,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "random",
+      "bootstrap_95_percentile": [
+        0.125,
+        0.4583333333333333
+      ],
+      "condition": "implicit_degraded",
+      "graph_minus_baseline": 0.2916666666666667,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "recent",
+      "bootstrap_95_percentile": [
+        0.041666666666666664,
+        0.3333333333333333
+      ],
+      "condition": "implicit_degraded",
+      "graph_minus_baseline": 0.16666666666666666,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "object_id",
+      "bootstrap_95_percentile": [
+        -0.2916666666666667,
+        0.20833333333333334
+      ],
+      "condition": "implicit_degraded",
+      "graph_minus_baseline": -0.041666666666666664,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "resource_time",
+      "bootstrap_95_percentile": [
+        0.041666666666666664,
+        0.3333333333333333
+      ],
+      "condition": "implicit_degraded",
+      "graph_minus_baseline": 0.16666666666666666,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "reference_join",
+      "bootstrap_95_percentile": [
+        0.041666666666666664,
+        0.3333333333333333
+      ],
+      "condition": "implicit_degraded",
+      "graph_minus_baseline": 0.16666666666666666,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 8,
+      "baseline": "relation_join",
+      "bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "condition": "implicit_degraded",
+      "graph_minus_baseline": 0,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "random",
+      "bootstrap_95_percentile": [
+        1,
+        1
+      ],
+      "condition": "explicit_complete",
+      "graph_minus_baseline": 1,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "recent",
+      "bootstrap_95_percentile": [
+        1,
+        1
+      ],
+      "condition": "explicit_complete",
+      "graph_minus_baseline": 1,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "object_id",
+      "bootstrap_95_percentile": [
+        0.25,
+        0.6666666666666666
+      ],
+      "condition": "explicit_complete",
+      "graph_minus_baseline": 0.4583333333333333,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "resource_time",
+      "bootstrap_95_percentile": [
+        0.75,
+        1
+      ],
+      "condition": "explicit_complete",
+      "graph_minus_baseline": 0.875,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "reference_join",
+      "bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "condition": "explicit_complete",
+      "graph_minus_baseline": 0,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "relation_join",
+      "bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "condition": "explicit_complete",
+      "graph_minus_baseline": 0,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "random",
+      "bootstrap_95_percentile": [
+        0,
+        0.125
+      ],
+      "condition": "explicit_degraded",
+      "graph_minus_baseline": 0.041666666666666664,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "recent",
+      "bootstrap_95_percentile": [
+        0,
+        0.125
+      ],
+      "condition": "explicit_degraded",
+      "graph_minus_baseline": 0.041666666666666664,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "object_id",
+      "bootstrap_95_percentile": [
+        -0.7083333333333334,
+        -0.25
+      ],
+      "condition": "explicit_degraded",
+      "graph_minus_baseline": -0.5,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "resource_time",
+      "bootstrap_95_percentile": [
+        0,
+        0.125
+      ],
+      "condition": "explicit_degraded",
+      "graph_minus_baseline": 0.041666666666666664,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "reference_join",
+      "bootstrap_95_percentile": [
+        0,
+        0.125
+      ],
+      "condition": "explicit_degraded",
+      "graph_minus_baseline": 0.041666666666666664,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "relation_join",
+      "bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "condition": "explicit_degraded",
+      "graph_minus_baseline": 0,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "random",
+      "bootstrap_95_percentile": [
+        0.125,
+        0.5416666666666666
+      ],
+      "condition": "implicit_only",
+      "graph_minus_baseline": 0.3333333333333333,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "recent",
+      "bootstrap_95_percentile": [
+        0.16666666666666666,
+        0.5416666666666666
+      ],
+      "condition": "implicit_only",
+      "graph_minus_baseline": 0.3333333333333333,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "object_id",
+      "bootstrap_95_percentile": [
+        -0.5,
+        0.125
+      ],
+      "condition": "implicit_only",
+      "graph_minus_baseline": -0.20833333333333334,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "resource_time",
+      "bootstrap_95_percentile": [
+        0.041666666666666664,
+        0.375
+      ],
+      "condition": "implicit_only",
+      "graph_minus_baseline": 0.20833333333333334,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "reference_join",
+      "bootstrap_95_percentile": [
+        0.16666666666666666,
+        0.5416666666666666
+      ],
+      "condition": "implicit_only",
+      "graph_minus_baseline": 0.3333333333333333,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "relation_join",
+      "bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "condition": "implicit_only",
+      "graph_minus_baseline": 0,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "random",
+      "bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "condition": "implicit_degraded",
+      "graph_minus_baseline": 0,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "recent",
+      "bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "condition": "implicit_degraded",
+      "graph_minus_baseline": 0,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "object_id",
+      "bootstrap_95_percentile": [
+        -0.75,
+        -0.3333333333333333
+      ],
+      "condition": "implicit_degraded",
+      "graph_minus_baseline": -0.5416666666666666,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "resource_time",
+      "bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "condition": "implicit_degraded",
+      "graph_minus_baseline": 0,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "reference_join",
+      "bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "condition": "implicit_degraded",
+      "graph_minus_baseline": 0,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    },
+    {
+      "background": 24,
+      "baseline": "relation_join",
+      "bootstrap_95_percentile": [
+        0,
+        0
+      ],
+      "condition": "implicit_degraded",
+      "graph_minus_baseline": 0,
+      "independent_seed_families": 24,
+      "resamples": 2000
+    }
+  ]
+}

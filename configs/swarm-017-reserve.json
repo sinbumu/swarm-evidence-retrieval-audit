@@ -1,0 +1,302 @@
+{
+  "protocol": "SWARM-017-reserve-v1",
+  "dev_seeds": [
+    501,
+    502,
+    503,
+    504,
+    505,
+    506
+  ],
+  "eval_seeds": [
+    5001,
+    5002,
+    5003,
+    5004,
+    5005,
+    5006,
+    5007,
+    5008,
+    5009,
+    5010,
+    5011,
+    5012,
+    5013,
+    5014,
+    5015,
+    5016,
+    5017,
+    5018,
+    5019,
+    5020,
+    5021,
+    5022,
+    5023,
+    5024,
+    5025,
+    5026,
+    5027,
+    5028,
+    5029,
+    5030,
+    5031,
+    5032,
+    5033,
+    5034,
+    5035,
+    5036,
+    5037,
+    5038,
+    5039,
+    5040,
+    5041,
+    5042,
+    5043,
+    5044,
+    5045,
+    5046,
+    5047,
+    5048,
+    5049,
+    5050,
+    5051,
+    5052,
+    5053,
+    5054,
+    5055,
+    5056,
+    5057,
+    5058,
+    5059,
+    5060,
+    5061,
+    5062,
+    5063,
+    5064,
+    5065,
+    5066,
+    5067,
+    5068,
+    5069,
+    5070,
+    5071,
+    5072,
+    5073,
+    5074,
+    5075,
+    5076,
+    5077,
+    5078,
+    5079,
+    5080,
+    5081,
+    5082,
+    5083,
+    5084,
+    5085,
+    5086,
+    5087,
+    5088,
+    5089,
+    5090,
+    5091,
+    5092,
+    5093,
+    5094,
+    5095,
+    5096
+  ],
+  "background_workflows": [
+    8,
+    24
+  ],
+  "conditions": {
+    "explicit_unique_r100": {
+      "reference_keep": 1.0,
+      "false_reference_probability": 0.0,
+      "resource_keep": 1.0,
+      "resource_add_probability": 0.0,
+      "pointer_keep": 1.0,
+      "pointer_wrong_probability": 0.0,
+      "object_keep": 1.0,
+      "object_buckets": null
+    },
+    "explicit_unique_r050": {
+      "reference_keep": 1.0,
+      "false_reference_probability": 0.0,
+      "resource_keep": 1.0,
+      "resource_add_probability": 0.0,
+      "pointer_keep": 1.0,
+      "pointer_wrong_probability": 0.0,
+      "object_keep": 0.5,
+      "object_buckets": null
+    },
+    "explicit_unique_r000": {
+      "reference_keep": 1.0,
+      "false_reference_probability": 0.0,
+      "resource_keep": 1.0,
+      "resource_add_probability": 0.0,
+      "pointer_keep": 1.0,
+      "pointer_wrong_probability": 0.0,
+      "object_keep": 0.0,
+      "object_buckets": null
+    },
+    "explicit_collision_r100": {
+      "reference_keep": 1.0,
+      "false_reference_probability": 0.0,
+      "resource_keep": 1.0,
+      "resource_add_probability": 0.0,
+      "pointer_keep": 1.0,
+      "pointer_wrong_probability": 0.0,
+      "object_keep": 1.0,
+      "object_buckets": 4
+    },
+    "explicit_collision_r050": {
+      "reference_keep": 1.0,
+      "false_reference_probability": 0.0,
+      "resource_keep": 1.0,
+      "resource_add_probability": 0.0,
+      "pointer_keep": 1.0,
+      "pointer_wrong_probability": 0.0,
+      "object_keep": 0.5,
+      "object_buckets": 4
+    },
+    "explicit_collision_r000": {
+      "reference_keep": 1.0,
+      "false_reference_probability": 0.0,
+      "resource_keep": 1.0,
+      "resource_add_probability": 0.0,
+      "pointer_keep": 1.0,
+      "pointer_wrong_probability": 0.0,
+      "object_keep": 0.0,
+      "object_buckets": 4
+    },
+    "implicit_unique_r100": {
+      "reference_keep": 0.0,
+      "false_reference_probability": 0.0,
+      "resource_keep": 1.0,
+      "resource_add_probability": 0.0,
+      "pointer_keep": 1.0,
+      "pointer_wrong_probability": 0.0,
+      "object_keep": 1.0,
+      "object_buckets": null
+    },
+    "implicit_unique_r050": {
+      "reference_keep": 0.0,
+      "false_reference_probability": 0.0,
+      "resource_keep": 1.0,
+      "resource_add_probability": 0.0,
+      "pointer_keep": 1.0,
+      "pointer_wrong_probability": 0.0,
+      "object_keep": 0.5,
+      "object_buckets": null
+    },
+    "implicit_unique_r000": {
+      "reference_keep": 0.0,
+      "false_reference_probability": 0.0,
+      "resource_keep": 1.0,
+      "resource_add_probability": 0.0,
+      "pointer_keep": 1.0,
+      "pointer_wrong_probability": 0.0,
+      "object_keep": 0.0,
+      "object_buckets": null
+    },
+    "implicit_collision_r100": {
+      "reference_keep": 0.0,
+      "false_reference_probability": 0.0,
+      "resource_keep": 1.0,
+      "resource_add_probability": 0.0,
+      "pointer_keep": 1.0,
+      "pointer_wrong_probability": 0.0,
+      "object_keep": 1.0,
+      "object_buckets": 4
+    },
+    "implicit_collision_r050": {
+      "reference_keep": 0.0,
+      "false_reference_probability": 0.0,
+      "resource_keep": 1.0,
+      "resource_add_probability": 0.0,
+      "pointer_keep": 1.0,
+      "pointer_wrong_probability": 0.0,
+      "object_keep": 0.5,
+      "object_buckets": 4
+    },
+    "implicit_collision_r000": {
+      "reference_keep": 0.0,
+      "false_reference_probability": 0.0,
+      "resource_keep": 1.0,
+      "resource_add_probability": 0.0,
+      "pointer_keep": 1.0,
+      "pointer_wrong_probability": 0.0,
+      "object_keep": 0.0,
+      "object_buckets": 4
+    }
+  },
+  "payload_budget_records": 4,
+  "metadata_record_bytes": 512,
+  "payload_record_bytes": 512,
+  "resource_pool_size": 8,
+  "time_window": 12,
+  "methods": [
+    "random",
+    "recent",
+    "object_id",
+    "resource_time",
+    "reference_join",
+    "relation_graph",
+    "relation_join",
+    "adaptive_pointer",
+    "object_relation_mix",
+    "relation_reserved_mix"
+  ],
+  "diagnostics": [
+    "full_evidence"
+  ],
+  "round_trip_ms_scenarios": [
+    0,
+    1,
+    10
+  ],
+  "condition_contrasts": [
+    [
+      "explicit_collision_r100",
+      "explicit_unique_r100"
+    ],
+    [
+      "explicit_unique_r050",
+      "explicit_unique_r100"
+    ],
+    [
+      "explicit_collision_r050",
+      "explicit_collision_r100"
+    ],
+    [
+      "explicit_unique_r000",
+      "explicit_unique_r100"
+    ],
+    [
+      "explicit_collision_r000",
+      "explicit_unique_r000"
+    ],
+    [
+      "implicit_collision_r100",
+      "implicit_unique_r100"
+    ],
+    [
+      "implicit_unique_r050",
+      "implicit_unique_r100"
+    ],
+    [
+      "implicit_collision_r050",
+      "implicit_collision_r100"
+    ],
+    [
+      "implicit_unique_r000",
+      "implicit_unique_r100"
+    ],
+    [
+      "implicit_collision_r000",
+      "implicit_unique_r000"
+    ]
+  ]
+}

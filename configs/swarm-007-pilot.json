@@ -1,0 +1,19 @@
+{
+  "protocol": "SWARM-007-v1",
+  "dev_seeds": [101, 102, 103, 104, 105, 106],
+  "eval_seeds": [1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024],
+  "background_workflows": [8, 24],
+  "conditions": {
+    "explicit_complete": {"reference_keep": 1.0, "false_reference_probability": 0.0, "resource_keep": 1.0},
+    "explicit_degraded": {"reference_keep": 0.5, "false_reference_probability": 0.25, "resource_keep": 0.7},
+    "implicit_only": {"reference_keep": 0.0, "false_reference_probability": 0.0, "resource_keep": 1.0},
+    "implicit_degraded": {"reference_keep": 0.0, "false_reference_probability": 0.0, "resource_keep": 0.7}
+  },
+  "payload_budget_records": 4,
+  "metadata_record_bytes": 512,
+  "payload_record_bytes": 512,
+  "resource_pool_size": 8,
+  "time_window": 12,
+  "methods": ["random", "recent", "object_id", "resource_time", "reference_join", "relation_graph", "relation_join"],
+  "diagnostics": ["full_evidence"]
+}
