@@ -551,8 +551,8 @@
     },
     {
       "path": "report/swarm-report-draft.md",
-      "sha256": "7a05aa45041ed435a1e9e83850349ba130cea9404fbe49a6a305eca5f80a474a",
-      "bytes": 48428,
+      "sha256": "42ff214280671cfac2b709dd2f693c87392009a211ee9289c7c16ca048203909",
+      "bytes": 48513,
       "kind": "adapted",
       "origins": [
         {
@@ -562,7 +562,7 @@
           "sha256": "1a2a7f8cade5346f4f78305095d4616c6020c2f53d8ac7986dbc3b3e77c393d2"
         }
       ],
-      "changes_and_purpose": "Public derivative of latest SWARM-021 manuscript. Remove author identity/private Discord quotation/reference, replace private repository/access guidance, omit3 historical command blocks and internal authorization prose. Scientific main body, abstract, all8 numerical tables and limitations retained. No public PDF/DOCX produced. Clarify excluded historical receipt availability and adapted protocol scope. Clarify public-snapshot test/format coverage. Publication update: owner-approved public scope, code-only MIT and retained scientific/submission limits.",
+      "changes_and_purpose": "Public derivative of latest SWARM-021 manuscript. Remove author identity/private Discord quotation/reference, replace private repository/access guidance, omit3 historical command blocks and internal authorization prose. Scientific main body, abstract, all8 numerical tables and limitations retained. No public PDF/DOCX produced. Clarify excluded historical receipt availability and adapted protocol scope. Clarify public-snapshot test/format coverage. Publication update: owner-approved public scope, code-only MIT and retained scientific/submission limits. Clarified public access as the selected Appendix B snapshot, excluding raw observations and original reproduction inputs.",
       "license_status": "Outside code-only MIT scope; no license grant made for this material"
     },
     {
