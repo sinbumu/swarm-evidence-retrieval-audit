@@ -551,8 +551,8 @@
     },
     {
       "path": "report/swarm-report-draft.md",
-      "sha256": "42ff214280671cfac2b709dd2f693c87392009a211ee9289c7c16ca048203909",
-      "bytes": 48513,
+      "sha256": "836953ebb11cf2ca9aa611b14a1d5e4dbd34e302b518207520bc18910e7896e8",
+      "bytes": 48948,
       "kind": "adapted",
       "origins": [
         {
@@ -562,7 +562,7 @@
           "sha256": "1a2a7f8cade5346f4f78305095d4616c6020c2f53d8ac7986dbc3b3e77c393d2"
         }
       ],
-      "changes_and_purpose": "Public derivative of latest SWARM-021 manuscript. Remove author identity/private Discord quotation/reference, replace private repository/access guidance, omit3 historical command blocks and internal authorization prose. Scientific main body, abstract, all8 numerical tables and limitations retained. No public PDF/DOCX produced. Clarify excluded historical receipt availability and adapted protocol scope. Clarify public-snapshot test/format coverage. Publication update: owner-approved public scope, code-only MIT and retained scientific/submission limits. Clarified public access as the selected Appendix B snapshot, excluding raw observations and original reproduction inputs.",
+      "changes_and_purpose": "Public derivative of latest SWARM-021 manuscript. Remove author identity/private Discord quotation/reference, replace private repository/access guidance, omit3 historical command blocks and internal authorization prose. Scientific main body, abstract, all8 numerical tables and limitations retained. No public PDF/DOCX produced. Clarify excluded historical receipt availability and adapted protocol scope. Clarify public-snapshot test/format coverage. Publication update: owner-approved public scope, code-only MIT and retained scientific/submission limits. Clarified public access as the selected Appendix B snapshot, excluding raw observations and original reproduction inputs. SWARM-025: clarify preexisting Discord-tool exclusion, user authorization/Codex retry roles, example fault, original comparison and historical replay scope, research question, checker-error conditions, ideal ID expectations versus fixed observations, and link the existing 36-cell table. No scientific data or publication scope changes. Preserve full explanation with an Appendix E continuation; original report is 19 pages, public output remains Markdown only.",
       "license_status": "Outside code-only MIT scope; no license grant made for this material"
     },
     {

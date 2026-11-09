@@ -8,7 +8,7 @@ An oversight monitor may need several related log records to assess one action, 
 
 ## 1 Introduction
 
-This audit separates graph representation from equivalent joins, sequential access from batch selection, and evidence coverage from checker agreement. Link faults and object/topology variations expose assumptions behind each result. Track 4, Multi-Agent Oversight and Control [4], motivates this log-integrity question. The comparison does not test strategic agents, collusion detection, or operational oversight.
+Under a read budget, when do links recover evidence, and when does complete retrieval mislead checking? This audit separates graph representation from equivalent joins, sequential from batch access, and coverage from checker agreement. Track 4 [4] motivates the question; strategic agents, collusion detection and operational oversight remain untested.
 
 <!-- page -->
 
@@ -24,7 +24,7 @@ A private ledger retains actual parents and labels for evaluation; selectors and
 
 ### 2.2 Two different checker rules
 
-The **fixed-stage checker**, used in Sections 4-6, follows payload pointers from commit through authorize, transform and produce. Only a valid observed chain yields normal for Boolean approved=true or violation for approved=false. Missing or repeated records, wrong IDs/stages, unequal compared values, invalid approval or a non-null final pointer yield unknown. Value mismatch is not a violation. In the example, reading all four records cannot resolve A's missing pointer to T: retrieval is complete, but this checker abstains.
+The **fixed-stage checker**, used in Sections 4-6, follows payload pointers from commit through authorize, transform and produce. Only a valid observed chain yields normal for Boolean approved=true or violation for approved=false. Missing or repeated records, wrong IDs/stages, unequal compared values, invalid approval or a non-null final pointer yield unknown. Value mismatch is not a violation. If A's pointer to T is additionally removed, reading all four records cannot resolve it: retrieval is complete, but this checker abstains.
 
 The **observed-closure AND checker**, used only in Section 7 and Appendix E, has no four-stage template. Starting from the anchor, it recursively resolves every asserted prerequisite among the read payloads. If any required reference is missing or invalid, it returns unknown. Otherwise all approvals must be true for normal; any false approval yields violation. It ignores extra records outside this observed closure. A redirected reference can therefore replace a true dependency with a distractor even when all true records were read. This is a different checker and fault model, not a new outcome from the earlier experiments.
 
@@ -62,7 +62,7 @@ Wang et al. [1] study budgeted supporting-span retrieval on ISETrace, which also
 
 Table 1 separates retrieving evidence from interpreting it in the original 576-view comparison (24 families). Graph and join returned identical IDs/order throughout. With exact payload pointers, adaptive retrieved and correctly checked 384/384 views despite metadata faults, as expected. The preserved pilot had omitted this sequential baseline despite exposing its pointers.
 
-Table 1. Fixed-stage checker outcomes. Current counts use 576 views from 24 families; the last column uses a separate, previously inspected 192-view pilot grid. Complete, Correct and Unknown are defined in Section 2. Unknown is an abstention, not a false verdict.
+Table 1. Fixed-stage checker outcomes. Current counts use 576 views from 24 families; historical counts, including adaptive, come from a later replay of the separate 192-view pilot grid. Complete, Correct and Unknown are defined in Section 2. Unknown is an abstention, not a false verdict.
 
 | Method | Complete /576 | Correct /576 | Unknown /576 | Historical complete /192 |
 | --- | ---: | ---: | ---: | ---: |
@@ -79,7 +79,7 @@ Table 1. Fixed-stage checker outcomes. Current counts use 576 views from 24 fami
 
 Mix beat graph in 68 views, lost in none and tied in 508. Adaptive had 161 wins, 80 losses and 335 ties. Its graph-relative losses split into 42 pointer-drop and 38 wrong-pointer views, where broken or off-chain dependencies exhaust the budget. These differ from all 124 adaptive failures.
 
-Among 192 views assigned to pointer-fault conditions, 142 actually had damaged true-chain pointers and 50 retained an intact true chain. Adaptive retrieved 68 complete sets and gave 50 correct verdicts. The true-record diagnostic retrieved all 192 sets but also gave only 50 correct verdicts, with 142 unknowns. No method produced a false normal or false violation in this restricted grid; the abstentions follow the fixed-stage contract.
+Among 192 views assigned to pointer-fault conditions, 142 actually had damaged true-chain pointers and 50 retained an intact true chain. Adaptive retrieved 68 complete sets and gave 50 correct verdicts. The true-record diagnostic retrieved all 192 sets but also gave only 50 correct verdicts, with 142 unknowns. No method produced a false normal or false violation in the original 576-view comparison; the abstentions follow the fixed-stage contract.
 
 Adaptive minus graph was +14.06 pp [8.16,19.97]; mix minus graph was +11.81 pp [5.90,18.58], using 24 paired family means. These describe this simulator/grid, not universal rankings. The pilot replay is a compatibility check (Appendix F). Sections 5-6 test repetition and object linkage.
 
@@ -201,7 +201,7 @@ Knowing required links could aid investigation or concealment. This toy study ne
 
 The event requires prior-work disclosure [4]. Private organizer communications are excluded from this snapshot; they are not publicly inspectable evidence here. An exact eligibility boundary or project-specific approval is not established by this release. Times below are November 7, 2026, Asia/Seoul (UTC+09:00), unless stated otherwise.
 
-November 5-6 literature notes, planning, and an optional Discord reader were preparation work. SWARM-007 fixed its design at 01:37:03 (f9f4de8), then implemented and tested the simulator. Development, evaluation, and reproduction began at 01:44:22, 01:44:31, and 01:45:30. Later blank-line cleanup preserved ASTs and received a new lock and matching reproduction. Execution hashes identify code initially run before its code commit.
+November 5-6 literature notes and planning were preparation work; the optional Discord reader was preexisting tooling, excluded from the public snapshot. SWARM-007 fixed its design at 01:37:03 (f9f4de8), then implemented and tested the simulator. Development, evaluation, and reproduction began at 01:44:22, 01:44:31, and 01:45:30. Later blank-line cleanup preserved ASTs and received a new lock and matching reproduction. Execution hashes identify code initially run before its code commit.
 
 SWARM-009 fixed its design at 14:57:22 (3f56b55), committed implementation as fb30a5f, and froze 15 source/config/test files. Development, fresh evaluation, historical replay, and reproduction ran at 15:03-15:04 without source or parameter changes. SWARM-010 drafted the report that evening; SWARM-013/014/015 revised documents on November 7-8. Later experiments are dated in Appendices C-E.
 
@@ -296,7 +296,7 @@ Table 5. Mean computation per view and one local selector-plus-read timing measu
 
 Reservation pays for the full join plus its own N-record index, N-1 checks and candidate sorting. Mean input: 20,848 catalog + 512 query + 2,048 payload = 23,408 bytes. Backend initialization adds N index entries/four lookups; repeated serialization is local work. Projection and backend initialization are outside selector timing; this sample establishes no speed advantage.
 
-Design/config commit 057fc40 preceded implementation on November 8. The first test run failed on a circular self-import: 44 old tests passed, but seven new tests did not load. No research run had begun. Work stopped; failed source/logs were archived. The original record reports one technical import correction and one validation retry before research execution. All 51 tests, including seven new tests, passed; corrected source/tests were committed as 977c1d7. This was a technical retry before research results.
+Design/config commit 057fc40 preceded implementation on November 8. The first test run failed on a circular self-import: 44 old tests passed, but seven new tests did not load. No research run had begun. Work stopped; failed source/logs were archived. Within the author's existing authorization, Codex made only that import correction and performed one validation retry. All 51 tests, including seven new tests, passed; corrected source/tests were committed as 977c1d7. This was a technical retry before research results.
 
 Development began at 05:41:38 KST and passed independent audit before the final 35-file lock (completion commit 0696d20). Evaluation/reproduction began at 05:42:23/05:42:55 and took 20.70/20.86 seconds. No subsequent validation failure, exclusion or post-evaluation code/config change occurred. The independent auditor reconstructs 25,344 rows, read contracts, object mapping, ranking/costs, 665 ordinary, 108 pooled-object and 111 primary intervals (884 total), and 52 cost/timing groups. It imports no production generator, selector, scorer or summary. This is artifact consistency checking, not external replication or human scientific review; CI is unverified.
 
@@ -351,11 +351,15 @@ Table 7. False-leaf full-catalog diagnostic: 32 reads, 96 families per label/cel
 | Fork/join | 4 | 18 | 50 | 96 |
 | Fork/join | 8 | 19 | 50 | 96 |
 
-Null-reference full-catalog views yield 96/96 unknown per label/topology/k. Intact views agree 96/96. The checker resolves all asserted prerequisites before AND evaluation and ignores extra records. The true-set oracle bounds retrieval only and yields unknown under damaged references; even full-catalog access can yield false verdicts.
+Null-reference full-catalog views yield 96/96 unknown per label/topology/k; intact views agree 96/96. Resolved false-leaf closure gives FN exactly when the disapproved true record is omitted and the leaf approved, and FV when the leaf is disapproved. Unresolved prerequisites yield unknown before approval checks; extras are ignored. The true-set oracle bounds retrieval only and abstains under damaged references.
 
 Feasible input is 6272/8320/10368 bytes at B=4/8/12: 4096 catalog, 128 query and 512 times B payload bytes. Blind uses one payload round. Intact frontier uses 4/8 chain rounds or 3/5 fork rounds at B=k; larger B adds fallback. Full catalog uses 20608 bytes; oracle receives an additional charged private ID list. Backend preparation, scans/sorts, frontier/lookup work, checker and truth costs are separate. Modeled RTT 0/1/10 ms waits include catalog/query plus payload rounds, not measured service latency. Authentication is absent.
 
-Let C(n,r) count r-element subsets of n items. Blind completion probability is C(B-1,k-1)/C(31,k-1). For B>=k, frontier uses C(B-q-d,k-q)/C(32-q-d,k-q). Here q counts distinct reachable true records including the anchor; d counts distinct reachable distractors before fallback: 1 for the false-leaf condition, 0 for intact/null. Thus q+d reads precede fallback, leaving B-q-d slots for k-q missing true records among 32-q-d unread candidates. These are counts, not IDs or depths. Impossible choices are zero. All 36 theory cells are separate from measured rates. Small fixed DAGs, full catalogs, background diamonds, leaf-only false targets and unmutated arity/approval limit generality; no agents or strategic corruption were simulated.
+<!-- page -->
+
+## Appendix E continued
+
+Let C(n,r) count r-element subsets of n items. Blind completion probability is C(B-1,k-1)/C(31,k-1). For B>=k, frontier uses C(B-q-d,k-q)/C(32-q-d,k-q). Here q counts distinct reachable true records including the anchor; d counts distinct reachable distractors before fallback: 1 for the false-leaf condition, 0 for intact/null. Thus q+d reads precede fallback, leaving B-q-d slots for k-q missing true records among 32-q-d unread candidates. These are counts, not IDs or depths. Impossible choices are zero. These formulas are expectations over ideal uniform opaque-ID assignments; the [36-cell table](https://github.com/sinbumu/swarm-evidence-retrieval-audit/blob/7b1574bdb9621abe4908aaf0cd44b40bef670c01/docs/swarm-018-results.md#analytic-probabilities-versus-measured-completion) compares them with fixed-cohort observations. Small fixed DAGs, full catalogs, background diamonds, leaf-only false targets and unmutated arity/approval limit generality; no agents or strategic corruption were simulated.
 
 Design bad9cfb preceded implementation e0a1359. Two preserved test-harness errors were corrected before 60 tests and six-family development passed. Freeze c24ca65 locked 50 files and the 2,000x96 matrix before the single evaluation and reproduction on November 8. Independent code reconstructed 46,080 rows and 144 intervals; seven files reproduced exactly, with timings/manifests checked separately. No research failure, exclusion, post-evaluation source change or retry occurred.
 
